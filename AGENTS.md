@@ -11,7 +11,11 @@ room.ventures is a static homepage for hotel room reviews, built with Hugo. Cont
 - **ExifTool** - EXIF metadata extraction from photos
 - **Local AI vision model** - Image analysis (style, age, luxury level, rating)
 - **Leaflet.js** - Interactive map on the homepage (OpenStreetMap tiles)
+- **OpenStreetMap embeds** - Interactive maps on review detail pages (iframe)
 - **Git LFS** - Large file storage for images
+- **Docker** - Hugo build + nginx serving (see `Dockerfile`)
+- **GitHub Actions** - CI/CD build and deploy (`.github/workflows/`)
+- **ImageMagick** (`magick`) - Image compression and resizing
 
 ## Architecture
 
@@ -19,10 +23,11 @@ room.ventures is a static homepage for hotel room reviews, built with Hugo. Cont
 - A processing pipeline (run manually by the AI agent) extracts EXIF data, groups photos by timestamp, analyzes them, and generates content
 - Content lives in `content/reviews/` as Markdown files with TOML front matter
 - Processed photos are stored in `static/images/reviews/` (tracked via Git LFS)
-- Static map tile images are stored in `static/images/maps/`
 - Aggregated location data for the homepage map lives in `data/locations.json`
 - Templates/layouts are in `layouts/`
 - Site configuration is in `hugo.toml`
+- nginx config with caching headers is in `nginx.conf`
+- The `photos/<slug>/` directories are gitignored — originals are NOT archived
 
 ## Photo Processing Pipeline
 
@@ -31,7 +36,7 @@ When photos are dumped into `photos/inbox/`, the agent should:
 1. **Deduplicate photos** by computing the SHA-256 hash of each file and checking against `photos/processed_hashes.json`. Skip any photo whose hash already exists (warn the user). After processing, add new hashes to the manifest.
 2. **Extract EXIF data** using ExifTool: date, time, GPS coordinates (lat/lng), camera model, lens, focal length, exposure
 3. **Group photos** by similar timestamps (within a few minutes) to identify photos belonging to the same hotel room visit
-4. **Reverse-geocode** GPS coordinates to get hotel name, city, country (or prompt user if unavailable)
+4. **Reverse-geocode and identify hotel** using the Nominatim API (OpenStreetMap). Search for hotels near the GPS coordinates using a tight bounding box (~100m). Use the closest OSM hotel name. If no hotel is found nearby, ask the user; if they don't remember, use a generic name based on location.
 5. **Analyze each photo** with a local AI vision model to assess:
    - Room style (modern, classic, boutique, rustic, etc.)
    - Estimated age/condition (new, well-maintained, dated, worn)
@@ -39,22 +44,51 @@ When photos are dumped into `photos/inbox/`, the agent should:
    - Cleanliness impression
    - Notable features
 6. **Generate a composite rating** (1-5) based on the AI analysis
-7. **Download a static OpenStreetMap tile** for the GPS coordinates to show the surrounding area
+7. **Resize and compress photos** before committing:
+   - Resize to max 1600px on the longest side: `sips -Z 1600 <file>`
+   - Compress JPEGs over 500KB using ImageMagick: `magick <file> -quality 80 -strip <file>`
+   - If still over 1MB, resize to 1200px and quality 60: `magick <file> -resize 1200x1200\> -quality 60 -strip <file>`
+   - Target: all images under 1MB, ideally 200-500KB
 8. **Generate a Hugo content page** in `content/reviews/` with all metadata in front matter
 9. **Update `data/locations.json`** with the new location entry (lat, lng, rating, title, URL) for the homepage map
 10. **Move processed photos** to `static/images/reviews/<slug>/`
 11. **Commit** all generated files to Git (images via Git LFS)
 
+### Repeat Visits
+
+- When processing photos for a hotel that already has a review, check dates carefully
+- The **earliest visit** (by date) gets the unnumbered slug: `hotel-name-city.md`
+- Subsequent visits get `-2`, `-3` suffixes in chronological order
+- If the new visit is earlier than an existing review, the existing review must be renumbered (swap filenames, image directories, map files, titles, and location entries)
+
+### Hotel Name Lookup via OpenStreetMap
+
+To find the real hotel name from GPS coordinates:
+
+```bash
+# Search for hotels within ~100m of coordinates
+curl -s -G "https://nominatim.openstreetmap.org/search" \
+  --data-urlencode "q=hotel" \
+  --data-urlencode "format=json" \
+  --data-urlencode "limit=5" \
+  --data-urlencode "viewbox=<lng-0.001>,<lat-0.001>,<lng+0.001>,<lat+0.001>" \
+  --data-urlencode "bounded=1" \
+  -H "User-Agent: room.ventures/1.0"
+```
+
+Pick the closest result by distance. Respect Nominatim rate limits (max 1 request per second).
+
 ## Front Matter Schema
 
 ```toml
 +++
-title = "Hotel Name - Room Type"
+title = "Hotel Name City"
 date = 2025-03-15T14:30:00+01:00
 draft = false
+reviewer = "philipp"
 
 [hotel]
-name = "Hotel Example"
+name = "Hotel Name"
 city = "Vienna"
 country = "Austria"
 lat = 48.2082
@@ -72,22 +106,46 @@ model = "iPhone 15 Pro"
 date_taken = 2025-03-15T14:30:00+01:00
 
 [images]
-room = "images/reviews/hotel-example/room.jpg"
-bathroom = "images/reviews/hotel-example/bathroom.jpg"
-map = "images/maps/hotel-example.png"
+room = "images/reviews/hotel-name-city/room.jpeg"
+room2 = "images/reviews/hotel-name-city/room2.jpeg"
+bathroom = "images/reviews/hotel-name-city/bathroom.jpeg"
 +++
 ```
+
+Note: The `map` field is no longer used — review pages use an embedded OpenStreetMap iframe generated from the hotel coordinates in the template.
 
 ## Conventions
 
 - Review filenames follow the pattern: `content/reviews/hotel-name-city.md`
 - Repeat visits use `-2`, `-3` suffixes: `hotel-name-city-2.md` — numbering must follow chronological order (earliest visit is unnumbered, subsequent visits get `-2`, `-3`, etc.)
 - Image folders follow the pattern: `static/images/reviews/hotel-name-city/`
-- Photos should be optimized (resized/compressed) before committing
+- Image filenames: `room.jpeg`, `room2.jpeg`, `room3.jpeg`, `bathroom.jpeg`
+- Photos must be resized (max 1600px) and compressed (target <1MB, ideally 200-500KB) before committing
 - Photo originals are NOT archived in `photos/<slug>/` — only `photos/inbox/` and `photos/processed_hashes.json` are tracked
+- The `photos/<slug>/` directories are gitignored
 - The homepage uses Leaflet.js to render an interactive map from `data/locations.json`
 - Each map marker links to the corresponding detail review page
+- Review detail pages show an embedded OpenStreetMap iframe (not static tiles)
 - Keep templates minimal and semantic
+
+## Deployment
+
+- The site is built as a Docker image: Hugo builds to `public/`, served by nginx
+- `nginx.conf` configures caching headers:
+  - Images (jpg, jpeg, png, webp): 30 days, `Cache-Control: public, max-age=2592000, immutable`
+  - CSS/JS: 7 days
+  - nginx provides ETag and Last-Modified headers by default
+- GitHub Actions workflow (`.github/workflows/build.yml`) builds and pushes the Docker image
+  - Uses `actions/checkout@v3` with `lfs: true` for Git LFS support
+  - Uses `docker/build-push-action@v4` with explicit `context: .` to ensure LFS files are included
+- Deploy workflow (`.github/workflows/deploy.yml`) pulls and runs the container via SSH
+
+### Gitignored paths
+
+- `public/` — Hugo build output
+- `.hugo_build.lock`
+- `photos/inbox/` — raw photo uploads
+- `photos/*/` — any photo archive subdirectories (but `photos/processed_hashes.json` is tracked)
 
 ## Development
 
@@ -97,6 +155,8 @@ map = "images/maps/hotel-example.png"
 ## Content Guidelines
 
 - Each room review should include: hotel name, location, room type, rating, AI-generated analysis, and photos
-- The AI analysis should cover: style, age/condition, luxury level, and notable features
-- Each review page should display a static OpenStreetMap tile showing the surrounding area
-- The homepage map should show all reviewed locations with ratings and links to detail pages
+- The AI analysis should cover: style, age/condition, luxury level, cleanliness, notable features, and drawbacks
+- Each review page displays an embedded OpenStreetMap widget showing the hotel location
+- The homepage map shows all reviewed locations with ratings and links to detail pages
+- Hotel names should be looked up via OpenStreetMap Nominatim API rather than guessed
+- Be critical and honest in reviews — ratings in existing reviews range from 2-4
