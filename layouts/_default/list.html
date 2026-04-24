@@ -81,11 +81,14 @@
     cards.forEach(function(card) {
       var lat = parseFloat(card.getAttribute('data-lat'));
       var lng = parseFloat(card.getAttribute('data-lng'));
+      var img = card.querySelector('img');
       if (mapBounds.contains([lat, lng])) {
         card.style.display = '';
+        if (img) img.loading = 'eager';
         visible++;
       } else {
         card.style.display = 'none';
+        if (img) img.loading = 'lazy';
       }
     });
     document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
