@@ -1,11 +1,11 @@
 +++
-title = "Hotel St. Pauli Hamburg"
+title = "Hotel St. Annen Hamburg"
 date = 2016-08-15T00:00:00+02:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel St. Pauli Hamburg"
+name = "Hotel St. Annen"
 city = "Hamburg"
 country = "Germany"
 lat = 53.554036
