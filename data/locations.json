@@ -68,5 +68,19 @@
     "lng": 6.9626,
     "rating": 3,
     "url": "/reviews/hotel-hayk-koeln/"
+  },
+  {
+    "title": "Hotel St. Pauli Hamburg",
+    "lat": 53.554036,
+    "lng": 9.963464,
+    "rating": 2,
+    "url": "/reviews/hotel-st-pauli-hamburg/"
+  },
+  {
+    "title": "Hotel HafenCity Hamburg",
+    "lat": 53.561389,
+    "lng": 9.987544,
+    "rating": 4,
+    "url": "/reviews/hotel-hafencity-hamburg/"
   }
 ]
