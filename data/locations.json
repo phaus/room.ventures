@@ -33,5 +33,40 @@
     "lng": 6.7952,
     "rating": 4,
     "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
+  },
+  {
+    "title": "Hotel Düsseldorf Stadtmitte",
+    "lat": 51.2189,
+    "lng": 6.7848,
+    "rating": 4,
+    "url": "/reviews/hotel-duesseldorf-stadtmitte/"
+  },
+  {
+    "title": "Hotel Wuppertal (2nd Visit)",
+    "lat": 51.2555,
+    "lng": 7.1472,
+    "rating": 4,
+    "url": "/reviews/hotel-wuppertal-2/"
+  },
+  {
+    "title": "White Tower",
+    "lat": 48.1373,
+    "lng": 11.6226,
+    "rating": 4,
+    "url": "/reviews/white-tower-muenchen/"
+  },
+  {
+    "title": "Hotel Nürnberg",
+    "lat": 49.4421,
+    "lng": 11.0880,
+    "rating": 4,
+    "url": "/reviews/hotel-nuernberg/"
+  },
+  {
+    "title": "Hotel Hayk",
+    "lat": 50.9372,
+    "lng": 6.9626,
+    "rating": 4,
+    "url": "/reviews/hotel-hayk-koeln/"
   }
 ]
