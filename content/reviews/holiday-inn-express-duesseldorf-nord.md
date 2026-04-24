@@ -2,6 +2,7 @@
 title = "Holiday Inn Express Düsseldorf Nord"
 date = 2026-03-02T19:34:50+01:00
 draft = false
+reviewer = "philipp"
 
 [hotel]
 name = "Holiday Inn Express Düsseldorf Nord"

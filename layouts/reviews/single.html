@@ -1,0 +1,129 @@
+{{ define "head" }}
+<style>
+  .review-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  .review-hero img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+  }
+  @media (max-width: 640px) {
+    .review-hero { grid-template-columns: 1fr; }
+    .review-hero img { height: 220px; }
+  }
+  .review-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .meta-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+  .meta-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+  }
+  .meta-value { font-weight: 600; font-size: 0.95rem; }
+  .review-body h2 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.75rem;
+    color: var(--accent);
+  }
+  .review-body ul { padding-left: 1.25rem; }
+  .review-body li { margin-bottom: 0.25rem; }
+  .review-map {
+    margin-top: 2rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .review-map img { display: block; width: 100%; }
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .back-link:hover { color: var(--text); text-decoration: none; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<a href="/reviews/" class="back-link">&larr; All Reviews</a>
+
+<h1 style="font-size:1.75rem; margin-bottom:0.25rem;">{{ .Title }}</h1>
+<p style="color:var(--text-muted); margin-bottom:0.5rem;">
+  {{ .Params.hotel.city }}, {{ .Params.hotel.country }} &middot;
+  {{ .Date.Format "January 2, 2006" }}
+</p>
+<div class="stars" style="margin-bottom:1.5rem;">
+  {{ range seq 5 }}
+    <span class="star{{ if le . ($.Params.room.rating | default 0) }} filled{{ end }}">&#9733;</span>
+  {{ end }}
+</div>
+
+{{ with .Params.images }}
+<div class="review-hero">
+  <img src="/{{ .room }}" alt="Room">
+  {{ with .room2 }}<img src="/{{ . }}" alt="Room">{{ end }}
+  {{ with .bathroom }}<img src="/{{ . }}" alt="Bathroom">{{ end }}
+</div>
+{{ end }}
+
+<div class="review-meta">
+  <div class="meta-item">
+    <div class="meta-label">Room Type</div>
+    <div class="meta-value">{{ .Params.room.type }}</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Style</div>
+    <div class="meta-value">{{ .Params.room.style }}</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Condition</div>
+    <div class="meta-value">{{ .Params.room.age }}</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Luxury</div>
+    <div class="meta-value">{{ .Params.room.luxury }}</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Camera</div>
+    <div class="meta-value">{{ .Params.camera.model }}</div>
+  </div>
+  <div class="meta-item">
+    <div class="meta-label">Photographed</div>
+    <div class="meta-value">{{ .Params.camera.date_taken | time.Format "Jan 2, 2006" }}</div>
+  </div>
+  {{ with .Params.reviewer }}
+  <div class="meta-item">
+    <div class="meta-label">Reviewer</div>
+    <div class="meta-value">{{ . }}</div>
+  </div>
+  {{ end }}
+</div>
+
+<div class="review-body">
+  {{ .Content }}
+</div>
+
+{{ with .Params.images.map }}
+<div class="review-map">
+  <img src="/{{ . }}" alt="Map showing hotel location">
+</div>
+{{ end }}
+{{ end }}

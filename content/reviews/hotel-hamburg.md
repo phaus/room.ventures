@@ -2,6 +2,7 @@
 title = "Hotel Hamburg - Rotherbaum"
 date = 2025-12-26T19:47:19+01:00
 draft = false
+reviewer = "philipp"
 
 [hotel]
 name = "Hotel Hamburg"

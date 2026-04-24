@@ -1,0 +1,99 @@
+{{ define "main" }}
+<h1 style="font-size:1.75rem; margin-bottom:0.25rem;">Hotel Room Reviews</h1>
+<p style="color:var(--text-muted); margin-bottom:1.5rem;">{{ len (where .Site.RegularPages "Section" "reviews") }} locations reviewed</p>
+
+<div id="map"></div>
+
+<p class="section-title">Reviews in View</p>
+
+<div id="review-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:1.25rem;">
+  {{ range (where .Site.RegularPages "Section" "reviews").ByDate.Reverse }}
+  {{ $rating := .Params.room.rating | default 0 }}
+  <a href="{{ .RelPermalink }}" class="card review-card" style="text-decoration:none; color:inherit;"
+     data-lat="{{ .Params.hotel.lat }}" data-lng="{{ .Params.hotel.lng }}">
+    {{ with .Params.images }}
+    <div style="height:200px; overflow:hidden;">
+      <img src="/{{ .room }}" alt="{{ $.Title }}" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+    </div>
+    {{ end }}
+    <div style="padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:start; margin-bottom:0.5rem;">
+        <h2 style="font-size:1rem; font-weight:600; line-height:1.3;">{{ .Title }}</h2>
+        <div class="stars" style="flex-shrink:0; margin-left:0.5rem;">
+          {{ range seq 5 }}
+            <span class="star{{ if le . $rating }} filled{{ end }}">&#9733;</span>
+          {{ end }}
+        </div>
+      </div>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:0.75rem;">
+        {{ .Params.hotel.city }}, {{ .Params.hotel.country }}
+      </p>
+      <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
+        <span class="tag">{{ .Params.room.style }}</span>
+        <span class="tag">{{ .Params.room.luxury }}</span>
+        <span class="tag">{{ .Params.room.type }}</span>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+
+<p id="no-results" style="display:none; color:var(--text-muted); text-align:center; padding:2rem 0;">
+  No reviews in the current map view. Zoom out or pan to see more.
+</p>
+{{ end }}
+
+{{ define "scripts" }}
+{{ $locations := $.Site.Data.locations | jsonify }}
+<script data-locations='{{ $locations }}'>
+(function() {
+  var mymap = L.map('map').setView([51.5, 8.5], 6);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '\u00a9 <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18
+  }).addTo(mymap);
+
+  var locations = JSON.parse(document.querySelector('[data-locations]').getAttribute('data-locations'));
+  var bounds = [];
+  locations.forEach(function(loc) {
+    var stars = '';
+    for (var i = 1; i <= 5; i++) {
+      stars += i <= loc.rating
+        ? '<span style="color:#fbbf24">\u2605</span>'
+        : '<span style="color:#4b5563">\u2605</span>';
+    }
+    var popup = '<div style="font-family:sans-serif;font-size:13px;line-height:1.4">'
+      + '<strong>' + loc.title + '</strong><br>'
+      + stars + '<br>'
+      + '<a href="' + loc.url + '">View review \u2192</a>'
+      + '</div>';
+    L.marker([loc.lat, loc.lng]).addTo(mymap).bindPopup(popup);
+    bounds.push([loc.lat, loc.lng]);
+  });
+  if (bounds.length) {
+    mymap.fitBounds(bounds, { padding: [40, 40] });
+  }
+
+  function filterCards() {
+    var mapBounds = mymap.getBounds();
+    var cards = document.querySelectorAll('.review-card');
+    var visible = 0;
+    cards.forEach(function(card) {
+      var lat = parseFloat(card.getAttribute('data-lat'));
+      var lng = parseFloat(card.getAttribute('data-lng'));
+      if (mapBounds.contains([lat, lng])) {
+        card.style.display = '';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  mymap.on('moveend', filterCards);
+  mymap.on('zoomend', filterCards);
+  filterCards();
+})();
+</script>
+{{ end }}

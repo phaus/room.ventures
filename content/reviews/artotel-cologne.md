@@ -2,6 +2,7 @@
 title = "art'otel cologne"
 date = 2026-04-22T18:10:36+02:00
 draft = false
+reviewer = "philipp"
 
 [hotel]
 name = "art'otel cologne"

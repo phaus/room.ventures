@@ -1,0 +1,6 @@
+baseURL = 'https://room.venture/'
+languageCode = 'en-us'
+title = 'room.venture'
+
+[params]
+  description = 'Hotel Room Reviews'

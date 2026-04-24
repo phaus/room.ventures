@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1c25;
+      --surface2: #23262f;
+      --border: #2e313a;
+      --text: #e4e4e7;
+      --text-muted: #8b8d97;
+      --accent: #60a5fa;
+      --accent-dim: #2563eb;
+      --gold: #fbbf24;
+      --gold-dim: #92722a;
+      --radius: 8px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+    }
+    .site-header .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-header .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+    .site-header .logo span { color: var(--accent); }
+    .site-header nav a {
+      color: var(--text-muted);
+      margin-left: 1.5rem;
+      font-size: 0.875rem;
+    }
+    .site-header nav a:hover { color: var(--text); text-decoration: none; }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    /* Stars */
+    .stars { display: inline-flex; gap: 2px; }
+    .star { color: var(--gold-dim); font-size: 1rem; }
+    .star.filled { color: var(--gold); }
+
+    /* Cards */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover {
+      border-color: var(--accent-dim);
+      transform: translateY(-2px);
+    }
+
+    /* Map */
+    #map {
+      height: 420px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    /* Tags */
+    .tag {
+      display: inline-block;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 0.2em 0.7em;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsive images */
+    img { max-width: 100%; height: auto; }
+
+    /* Section headings */
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+  </style>
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/" class="logo">room<span>.venture</span></a>
+      <nav>
+        <a href="/">Map</a>
+        <a href="/reviews/">Reviews</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    &copy; {{ now.Year }} room.venture
+  </footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>
