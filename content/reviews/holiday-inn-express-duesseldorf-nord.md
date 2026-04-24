@@ -13,10 +13,10 @@ lng = 6.7952
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Mid-range"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -28,12 +28,13 @@ room2 = "images/reviews/holiday-inn-express-duesseldorf-nord/room2.jpeg"
 map = "images/maps/holiday-inn-express-duesseldorf-nord.png"
 +++
 
-An upscale modern room at the Holiday Inn Express Düsseldorf Nord in the Düsseltal district. The room features high ceilings, large windows, and a comfortable bed with modern decor. Well-maintained and equipped with all necessary amenities for a pleasant stay.
+A generic chain hotel room at Holiday Inn Express Düsseldorf Nord. Functional and clean, but showing wear with small windows, dated lighting fixtures, and the typical budget-chain aesthetic. The bed is comfortable enough and the room has average size, but there is nothing memorable about the experience. Exactly what you'd expect from an Express-tier hotel.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
-- **Luxury Level:** Upscale
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, high ceilings, comfortable bed, modern decor
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Mid-range
+- **Cleanliness:** Good
+- **Notable Features:** Cleanliness, average size, modern furniture
+- **Drawbacks:** Small windows, dated lighting, generic chain feel

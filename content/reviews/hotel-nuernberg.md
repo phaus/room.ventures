@@ -13,10 +13,10 @@ lng = 11.0880
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Mid-range"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -29,12 +29,13 @@ room3 = "images/reviews/hotel-nuernberg/room3.jpeg"
 map = "images/maps/hotel-nuernberg.png"
 +++
 
-An upscale modern hotel room in Nürnberg's Lichtenhof district near Breitscheidstraße. The room features high ceilings, large windows, and a comfortable bed with modern amenities. Spacious and well-equipped with a clean, contemporary design.
+A generic mid-range room in Nürnberg's Lichtenhof district near Breitscheidstraße. One of the better rooms reviewed -- the TV is decent-sized, the bed is comfortable, and it's cleaner than expected. However, the furniture is still outdated in places, the room feels impersonal, and there's nothing that elevates it above standard business hotel territory.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
-- **Luxury Level:** Upscale / Mid-range
-- **Cleanliness:** Excellent
-- **Notable Features:** Large windows, high ceilings, comfortable bed, modern decor, modern TV
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Mid-range
+- **Cleanliness:** Good
+- **Notable Features:** Decent TV, comfortable bed, cleaner than expected
+- **Drawbacks:** Outdated furniture, impersonal feel, generic decor

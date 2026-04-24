@@ -13,10 +13,10 @@ lng = 6.7848
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Economy"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -28,12 +28,13 @@ room2 = "images/reviews/hotel-duesseldorf-stadtmitte/room2.jpeg"
 map = "images/maps/hotel-duesseldorf-stadtmitte.png"
 +++
 
-A stylish hotel room near Graf-Adolf-Straße in Düsseldorf's Stadtmitte district. The room features a modern aesthetic with a large TV, comfortable bed, and contemporary decor. Clean and well-maintained with an upscale feel.
+A basic economy hotel room near Graf-Adolf-Straße in Düsseldorf's Stadtmitte district. The room is small with dated furniture and limited natural light from small windows. Clean floors and good lighting are positives, but the lack of amenities and compact size make it feel cramped. A no-frills option for a short stay.
 
 ## AI Analysis
 
-- **Style:** Modern / Classic blend
-- **Condition:** New / Well-maintained
-- **Luxury Level:** Upscale / Mid-range
-- **Cleanliness:** Excellent
-- **Notable Features:** Large TV, comfortable bed, modern decor, large window, ample closet space
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Economy
+- **Cleanliness:** Good
+- **Notable Features:** Good lighting, clean floors, comfortable bed
+- **Drawbacks:** Small room size, dated furniture, no notable amenities

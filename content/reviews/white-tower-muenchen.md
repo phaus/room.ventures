@@ -13,10 +13,10 @@ lng = 11.6226
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Mid-range"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -28,12 +28,13 @@ room2 = "images/reviews/white-tower-muenchen/room2.jpeg"
 map = "images/maps/white-tower-muenchen.png"
 +++
 
-An upscale modern room at the White Tower hotel in München's Bogenhausen district near Truderinger Straße. The room features a spacious layout with large windows, a comfortable bed, and stylish modern decor. Well-maintained with upscale amenities throughout.
+A generic mid-range room at the White Tower hotel in München's Bogenhausen district near Truderinger Straße. Standard business hotel fare -- functional but unremarkable. The room is clean and the bed is adequate, but don't expect anything beyond the basics. Dated elements and a lack of character put this firmly in the average category.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
-- **Luxury Level:** Upscale
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, comfortable bed, modern decor, stylish decor
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Mid-range
+- **Cleanliness:** Good
+- **Notable Features:** Clean room, adequate bed, functional layout
+- **Drawbacks:** Generic decor, dated elements, no distinctive character

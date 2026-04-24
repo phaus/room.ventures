@@ -13,10 +13,10 @@ lng = 7.1472
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Economy"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -29,12 +29,13 @@ room3 = "images/reviews/hotel-wuppertal-2/room3.jpeg"
 map = "images/maps/hotel-wuppertal-2.png"
 +++
 
-A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleiche. This time in a spacious room with modern decor, large windows, and a comfortable bed. The room maintains the same upscale quality and excellent cleanliness seen on the first visit.
+A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleiche. Similar story as the first visit -- the bed is comfortable and the TV has been upgraded, but the worn carpet needs replacing and the room feels cramped. Dated furniture and a small window continue to be issues. Good lighting and some in-room amenities are the only real positives.
 
 ## AI Analysis
 
-- **Style:** Modern / Classic
-- **Condition:** New / Well-maintained
-- **Luxury Level:** Upscale / Mid-range
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, comfortable bed, modern decor, elegant furniture, flat-screen TV
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Economy
+- **Cleanliness:** Good
+- **Notable Features:** Comfortable bed, new TV, good lighting
+- **Drawbacks:** Worn carpet, small window, dated furniture, cramped layout

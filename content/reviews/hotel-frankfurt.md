@@ -13,8 +13,8 @@ lng = 8.6632
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
+style = "Generic"
+age = "Showing wear"
 luxury = "Mid-range"
 rating = 3
 
@@ -28,12 +28,13 @@ room2 = "images/reviews/hotel-frankfurt/room2.jpeg"
 map = "images/maps/hotel-frankfurt.png"
 +++
 
-A modern mid-range hotel room in Frankfurt's Bahnhofsviertel near Niddastraße. The room is well-appointed with a comfortable bed, large window, and modern TV. Clean and well-maintained with ample closet space and a functional layout.
+A generic mid-range hotel room in Frankfurt's Bahnhofsviertel near Niddastraße. The room has average furniture and decent lighting but small windows and some dated elements. Worn carpet and cheap materials are visible on closer inspection. Functional for a business trip but nothing to write home about.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
+- **Style:** Generic
+- **Condition:** Showing wear
 - **Luxury Level:** Mid-range
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, comfortable bed, modern TV, ample closet space
+- **Cleanliness:** Good
+- **Notable Features:** Average size, decent lighting
+- **Drawbacks:** Small windows, dated carpet, worn materials

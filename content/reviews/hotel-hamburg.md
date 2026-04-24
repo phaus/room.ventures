@@ -13,10 +13,10 @@ lng = 9.9876
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Mid-range"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -28,12 +28,13 @@ room2 = "images/reviews/hotel-hamburg/room2.jpeg"
 map = "images/maps/hotel-hamburg.png"
 +++
 
-An upscale modern hotel room in Hamburg's Rotherbaum district near Johnsallee. The room features a sleek minimalist aesthetic with large windows, a comfortable bed, and modern art on the walls. A stylish and spacious space perfect for a relaxing stay.
+A generic mid-range hotel room in Hamburg's Rotherbaum district near Johnsallee. The bed is comfortable and there's enough natural light, but the bedding feels dated and the desk/TV setup is nothing special. A quiet room but otherwise unremarkable -- standard fare for a mid-range German business hotel.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
-- **Luxury Level:** Upscale
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, comfortable bed, modern art on walls, minimalist aesthetic
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Mid-range
+- **Cleanliness:** Good
+- **Notable Features:** Comfortable bed, quiet room, modern TV and desk
+- **Drawbacks:** Dated bedding, generic decor, nothing distinctive

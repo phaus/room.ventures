@@ -13,10 +13,10 @@ lng = 6.9626
 
 [room]
 type = "Double Room"
-style = "Modern"
-age = "New"
-luxury = "Upscale"
-rating = 4
+style = "Generic"
+age = "Showing wear"
+luxury = "Mid-range"
+rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
@@ -29,12 +29,13 @@ room3 = "images/reviews/hotel-hayk-koeln/room3.jpeg"
 map = "images/maps/hotel-hayk-koeln.png"
 +++
 
-An upscale modern room at Hotel Hayk in Köln's Altstadt-Nord district on the Frankenwerft along the Rhine. The room features a spacious layout with large windows, high ceilings, a comfortable bed, and modern amenities. Stylish and well-maintained with excellent cleanliness.
+A mid-range room at Hotel Hayk in Köln's Altstadt-Nord on the Frankenwerft. The room is functional with a comfortable bed and decent air conditioning, but showing wear throughout. Small windows limit natural light, curtains look cheap, and the furniture is dated. The TV is modern but feels like a bare-minimum upgrade. For the location near the Rhine it's acceptable, but the room itself is underwhelming.
 
 ## AI Analysis
 
-- **Style:** Modern
-- **Condition:** New
-- **Luxury Level:** Upscale
-- **Cleanliness:** Excellent
-- **Notable Features:** Large window, high ceiling, comfortable bed, modern decor, modern amenities
+- **Style:** Generic
+- **Condition:** Showing wear
+- **Luxury Level:** Mid-range
+- **Cleanliness:** Good
+- **Notable Features:** Comfortable bed, good air conditioning, modern TV
+- **Drawbacks:** Small windows, cheap-looking curtains, dated furniture
