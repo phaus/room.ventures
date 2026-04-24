@@ -82,5 +82,19 @@
     "lng": 9.987544,
     "rating": 4,
     "url": "/reviews/hotel-hafencity-hamburg/"
+  },
+  {
+    "title": "Hotel Feldstraße Hamburg",
+    "lat": 53.556781,
+    "lng": 9.973772,
+    "rating": 3,
+    "url": "/reviews/hotel-feldstrasse-hamburg/"
+  },
+  {
+    "title": "Hotel St. Georg Hamburg",
+    "lat": 53.554386,
+    "lng": 10.015308,
+    "rating": 2,
+    "url": "/reviews/hotel-st-georg-hamburg/"
   }
 ]
