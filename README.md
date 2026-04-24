@@ -1,10 +1,10 @@
-# room.venture
+# room.ventures
 
 A static website for hotel room reviews, built with [Hugo](https://gohugo.io/).
 
 ## Overview
 
-room.venture is a static site that showcases and reviews hotel rooms. Photos are dumped into a folder, processed by an AI agent that extracts EXIF data, analyzes room quality, and generates static Markdown content pages with ratings. The final site features an interactive dark-themed map of all reviewed locations.
+room.ventures is a static site that showcases and reviews hotel rooms. Photos are dumped into a folder, processed by an AI agent that extracts EXIF data, analyzes room quality, and generates static Markdown content pages with ratings. The final site features an interactive dark-themed map of all reviewed locations.
 
 ## Tech Stack
 
@@ -100,7 +100,7 @@ The generated site will be in the `public/` directory.
 ## Project Structure
 
 ```
-room.venture/
+room.ventures/
 ├── photos/
 │   ├── inbox/                 # Drop raw photos here for processing
 │   └── processed_hashes.json  # SHA-256 manifest for duplicate detection

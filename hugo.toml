@@ -1,6 +1,6 @@
-baseURL = 'https://room.venture/'
+baseURL = 'https://room.ventures/'
 languageCode = 'en-us'
-title = 'room.venture'
+title = 'room.ventures'
 
 [params]
   description = 'Hotel Room Reviews'
