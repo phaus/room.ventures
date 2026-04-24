@@ -36,9 +36,9 @@ jobs:
       - name: Prepare dev deployment
         run: |
           ssh -i ~/.ssh/id_ed25519 -p ${SSH_PORT} ${{ secrets.ARTIFACT_USER }}@${{ secrets.ARTIFACT_HOST }} mkdir -p ${DEPLOYMENT_FOLDER}
-      - name: Upload docker compose
-        run: |
-          scp -P ${SSH_PORT} compose.yml ${{ secrets.ARTIFACT_USER }}@${{ secrets.ARTIFACT_HOST }}:/home/${{ secrets.ARTIFACT_USER }}/${DEPLOYMENT_FOLDER}/
+      # - name: Upload docker compose
+      #   run: |
+      #     scp -P ${SSH_PORT} compose.yml ${{ secrets.ARTIFACT_USER }}@${{ secrets.ARTIFACT_HOST }}:/home/${{ secrets.ARTIFACT_USER }}/${DEPLOYMENT_FOLDER}/
       - name: Perform deployment
         run: |
           ssh -i ~/.ssh/id_ed25519 -p ${SSH_PORT} ${{ secrets.ARTIFACT_USER }}@${{ secrets.ARTIFACT_HOST }} docker compose -f ${DEPLOYMENT_FOLDER}/compose.yml pull
