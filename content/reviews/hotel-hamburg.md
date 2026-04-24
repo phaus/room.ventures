@@ -25,7 +25,6 @@ date_taken = 2025-12-26T19:47:19+01:00
 [images]
 room = "images/reviews/hotel-hamburg/room.jpeg"
 room2 = "images/reviews/hotel-hamburg/room2.jpeg"
-map = "images/maps/hotel-hamburg.png"
 +++
 
 A generic mid-range hotel room in Hamburg's Rotherbaum district near Johnsallee. The bed is comfortable and there's enough natural light, but the bedding feels dated and the desk/TV setup is nothing special. A quiet room but otherwise unremarkable -- standard fare for a mid-range German business hotel.

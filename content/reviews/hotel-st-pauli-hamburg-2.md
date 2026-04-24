@@ -24,7 +24,6 @@ date_taken = 2016-08-16T00:00:00+02:00
 
 [images]
 room = "images/reviews/hotel-st-pauli-hamburg-2/room.jpeg"
-map = "images/maps/hotel-st-pauli-hamburg-2.png"
 +++
 
 A return to the St. Pauli hotel confirms the impressions from the first visit. The room is cramped with dark wood furniture that looks like it hasn't been updated since the early 2000s. A small flat-screen TV sits on a swivel arm above a cluttered desk, the wardrobe is bulky and takes up too much of the limited space, and the bed is low and narrow with uninspiring gray-brown bedding. Dark carpet throughout adds to the gloomy atmosphere. Functional at best -- this is a place to sleep, not to enjoy.

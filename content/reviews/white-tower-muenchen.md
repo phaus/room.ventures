@@ -25,7 +25,6 @@ date_taken = 2025-06-26T19:01:38+02:00
 [images]
 room = "images/reviews/white-tower-muenchen/room.jpeg"
 room2 = "images/reviews/white-tower-muenchen/room2.jpeg"
-map = "images/maps/white-tower-muenchen.png"
 +++
 
 A generic mid-range room at the White Tower hotel in München's Bogenhausen district near Truderinger Straße. Standard business hotel fare -- functional but unremarkable. The room is clean and the bed is adequate, but don't expect anything beyond the basics. Dated elements and a lack of character put this firmly in the average category.

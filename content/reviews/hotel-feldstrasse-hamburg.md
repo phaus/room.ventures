@@ -26,7 +26,6 @@ date_taken = 2014-12-26T00:00:00+01:00
 room = "images/reviews/hotel-feldstrasse-hamburg/room.jpeg"
 room2 = "images/reviews/hotel-feldstrasse-hamburg/room2.jpeg"
 room3 = "images/reviews/hotel-feldstrasse-hamburg/room3.jpeg"
-map = "images/maps/hotel-feldstrasse-hamburg.png"
 +++
 
 A surprisingly spacious suite near Feldstraße in Hamburg's Karolinenviertel, though the dated decor undermines whatever sense of luxury the extra square footage might provide. The room features a small kitchenette with a granite countertop, sink, and bar stools — a nice practical touch — along with a separate living area containing an armchair, sofa, coffee table with magazines, and a wall-mounted flat-screen TV. The bedroom has twin beds with clean white linens and dark brown throws. Red carpet runs throughout the entire suite, paired with yellow-beige textured walls that give the space a distinctly early-2000s business hotel feel. The room is functional and reasonably comfortable, but the heavy color palette and aging furnishings make it feel like a time capsule rather than a retreat.

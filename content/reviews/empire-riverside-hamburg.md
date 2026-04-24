@@ -26,7 +26,6 @@ date_taken = 2016-10-11T00:00:00+02:00
 room = "images/reviews/empire-riverside-hamburg/room.jpeg"
 room2 = "images/reviews/empire-riverside-hamburg/room2.jpeg"
 bathroom = "images/reviews/empire-riverside-hamburg/bathroom.jpeg"
-map = "images/maps/empire-riverside-hamburg.png"
 +++
 
 The Empire Riverside Hotel is a clear step above the other Hamburg properties reviewed here. The room features floor-to-ceiling windows that frame a dusk cityscape — a proper view that gives the space a sense of occasion. Deep red carpet runs throughout, paired with dark espresso wood furniture and crisp white walls for a bold, contemporary contrast. The bed is generously sized with plush white bedding and a dark wood headboard with integrated reading lamps that swing out elegantly. A designer mushroom-shaped table lamp on the low console adds a boutique touch. The entryway corridor is long and narrow with a full-length mirror, suggesting a higher floor with a proper layout rather than a converted box room. The bathroom is the highlight: fully clad in grey-green-white mosaic tiles from floor to ceiling, with a heated towel rack — a detail that signals genuine attention to guest comfort. The tile work is distinctive and gives the space real character, something the other Hamburg hotels consistently lack. This is a hotel that tries, and mostly succeeds, at delivering an upscale urban experience.

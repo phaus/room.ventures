@@ -25,7 +25,6 @@ date_taken = 2016-07-11T00:00:00+02:00
 [images]
 room = "images/reviews/hotel-feldstrasse-hamburg-2/room.jpeg"
 room2 = "images/reviews/hotel-feldstrasse-hamburg-2/room2.jpeg"
-map = "images/maps/hotel-feldstrasse-hamburg-2.png"
 +++
 
 A return visit to the Feldstraße hotel reveals a dramatically different room — or perhaps a renovation since the 2014 stay. Gone are the red carpets and yellow walls; this standard double room features light hardwood flooring, neutral grey-beige walls, and a clean contemporary aesthetic. The twin beds are pushed together with a tall upholstered headboard in a muted taupe fabric, dressed in crisp white linens with an abundance of pillows. A bold red designer wingback chair provides the only color accent and doubles as a reading nook beside a tall floor lamp. A small desk with an office chair sits along the opposite wall. The room is compact but well-proportioned, with a large window letting in decent natural light through sheer curtains. It's a competent mid-range business hotel room — inoffensive and functional, though ultimately forgettable. The upgrade from the previous visit's dated decor is welcome, but the result is generic Scandinavian-lite rather than anything with real character.

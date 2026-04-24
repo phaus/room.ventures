@@ -25,7 +25,6 @@ date_taken = 2025-04-09T15:36:25+02:00
 [images]
 room = "images/reviews/hotel-duesseldorf-stadtmitte/room.jpeg"
 room2 = "images/reviews/hotel-duesseldorf-stadtmitte/room2.jpeg"
-map = "images/maps/hotel-duesseldorf-stadtmitte.png"
 +++
 
 A basic economy hotel room near Graf-Adolf-Straße in Düsseldorf's Stadtmitte district. The room is small with dated furniture and limited natural light from small windows. Clean floors and good lighting are positives, but the lack of amenities and compact size make it feel cramped. A no-frills option for a short stay.

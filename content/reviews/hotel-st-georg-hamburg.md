@@ -24,7 +24,6 @@ date_taken = 2013-08-12T00:00:00+02:00
 
 [images]
 room = "images/reviews/hotel-st-georg-hamburg/room.jpeg"
-map = "images/maps/hotel-st-georg-hamburg.png"
 +++
 
 A compact modern room near Kleiner Pulverteich in Hamburg's St. Georg district, close to the Hauptbahnhof. The room is very small — barely enough space to walk around the twin beds that have been pushed together. A green padded headboard panel provides the only splash of color in an otherwise dark grey-and-black color scheme. The photo itself is underexposed and dim, which may partly reflect the room's limited natural light from a single window with sheer curtains. Small chocolate mints sit on the turned-down bed. The room attempts a contemporary look with its dark tones and clean lines, but the cramped dimensions and oppressive darkness make it feel claustrophobic rather than cozy. Budget modern — efficient but not enjoyable.

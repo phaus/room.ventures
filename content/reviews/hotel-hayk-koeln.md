@@ -26,7 +26,6 @@ date_taken = 2025-08-18T23:23:34+02:00
 room = "images/reviews/hotel-hayk-koeln/room.jpeg"
 room2 = "images/reviews/hotel-hayk-koeln/room2.jpeg"
 room3 = "images/reviews/hotel-hayk-koeln/room3.jpeg"
-map = "images/maps/hotel-hayk-koeln.png"
 +++
 
 A mid-range room at Hotel Hayk in Köln's Altstadt-Nord on the Frankenwerft. The room is functional with a comfortable bed and decent air conditioning, but showing wear throughout. Small windows limit natural light, curtains look cheap, and the furniture is dated. The TV is modern but feels like a bare-minimum upgrade. For the location near the Rhine it's acceptable, but the room itself is underwhelming.

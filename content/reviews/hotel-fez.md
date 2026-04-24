@@ -26,7 +26,6 @@ date_taken = 2017-11-14T18:41:00+01:00
 room = "images/reviews/hotel-fez/room.jpeg"
 room2 = "images/reviews/hotel-fez/room2.jpeg"
 room3 = "images/reviews/hotel-fez/room3.jpeg"
-map = "images/maps/hotel-fez.png"
 +++
 
 A standard mid-range Moroccan hotel room with twin beds, white quilted bedspreads, and red accent cushions matching the heavy burgundy curtains. The wooden headboard panel with its crescent moon cutout detail is a nice local touch, and there's decorative carved plaster trim along the ceiling — small nods to Moroccan design that lift this above a completely generic business hotel. The desk area on the opposite wall is functional but uninspired: flat-screen TV, small desk with lamp, and a bench seat. The lighting is warm but dim, relying entirely on wall sconces. White tile floors are clean but cold-looking. The morning balcony view through a Moorish-arched lattice frame is the highlight — overlooking green parkland and the outskirts of Fez at sunrise, with a small table and two chairs for sitting out. Overall, a competent if unremarkable room that does the job for a night or two while exploring Fez.

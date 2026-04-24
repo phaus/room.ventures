@@ -24,7 +24,6 @@ date_taken = 2017-11-16T17:50:00+01:00
 
 [images]
 room = "images/reviews/hotel-rabat/room.jpeg"
-map = "images/maps/hotel-rabat.png"
 +++
 
 A tired-looking twin room with dark red carpet, brown curtains, and a wooden headboard panel that would have looked current about fifteen years ago. The two single beds are pushed together with a shared nightstand, white duvets rumpled and already showing use. Wall-mounted reading lamps with fabric shades provide the only lighting, casting a dim yellowish glow that makes the room feel smaller and gloomier than it probably is. A phone and what appears to be a menu or info booklet sit on the nightstand. The overall impression is of a business-class hotel from the early 2000s that hasn't been refreshed since — functional but fatigued. The red carpet and brown palette feels heavy and dated. Nothing is broken or dirty, but nothing invites you to linger either. A place to sleep, nothing more.

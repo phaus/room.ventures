@@ -121,9 +121,18 @@
   {{ .Content }}
 </div>
 
-{{ with .Params.images.map }}
+{{ with .Params.hotel }}
+{{ if and .lat .lng }}
 <div class="review-map">
-  <img src="/{{ . }}" alt="Map showing hotel location">
+  <iframe
+    width="100%"
+    height="300"
+    frameborder="0"
+    scrolling="no"
+    src="https://www.openstreetmap.org/export/embed.html?bbox={{ sub .lng 0.01 }}%2C{{ sub .lat 0.01 }}%2C{{ add .lng 0.01 }}%2C{{ add .lat 0.01 }}&layer=mapnik&marker={{ .lat }}%2C{{ .lng }}"
+    style="border:0; display:block;">
+  </iframe>
 </div>
+{{ end }}
 {{ end }}
 {{ end }}
