@@ -96,5 +96,54 @@
     "lng": 10.015308,
     "rating": 2,
     "url": "/reviews/hotel-st-georg-hamburg/"
+  },
+  {
+    "title": "Hotel Feldstraße Hamburg (2nd Visit)",
+    "lat": 53.556781,
+    "lng": 9.973772,
+    "rating": 3,
+    "url": "/reviews/hotel-feldstrasse-hamburg-2/"
+  },
+  {
+    "title": "Hotel Feldstraße Hamburg (3rd Visit)",
+    "lat": 53.556781,
+    "lng": 9.973772,
+    "rating": 3,
+    "url": "/reviews/hotel-feldstrasse-hamburg-3/"
+  },
+  {
+    "title": "Hotel St. Pauli Hamburg (2nd Visit)",
+    "lat": 53.554036,
+    "lng": 9.963464,
+    "rating": 2,
+    "url": "/reviews/hotel-st-pauli-hamburg-2/"
+  },
+  {
+    "title": "Empire Riverside Hotel Hamburg",
+    "lat": 53.547561,
+    "lng": 9.963389,
+    "rating": 4,
+    "url": "/reviews/empire-riverside-hamburg/"
+  },
+  {
+    "title": "Desert Camp Er-Rissani",
+    "lat": 31.217,
+    "lng": -3.984,
+    "rating": 2,
+    "url": "/reviews/desert-camp-er-rissani/"
+  },
+  {
+    "title": "Hotel Fez",
+    "lat": 34.041,
+    "lng": -4.994,
+    "rating": 3,
+    "url": "/reviews/hotel-fez/"
+  },
+  {
+    "title": "Hotel Rabat",
+    "lat": 34.033,
+    "lng": -6.839,
+    "rating": 2,
+    "url": "/reviews/hotel-rabat/"
   }
 ]

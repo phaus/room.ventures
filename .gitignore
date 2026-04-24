@@ -1,1 +1,6 @@
 .DS_Store
+public/
+.hugo_build.lock
+photos/inbox/
+photos/*/
+!photos/processed_hashes.json
