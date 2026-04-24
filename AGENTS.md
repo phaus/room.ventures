@@ -81,8 +81,10 @@ map = "images/maps/hotel-example.png"
 ## Conventions
 
 - Review filenames follow the pattern: `content/reviews/hotel-name-city.md`
+- Repeat visits use `-2`, `-3` suffixes: `hotel-name-city-2.md` — numbering must follow chronological order (earliest visit is unnumbered, subsequent visits get `-2`, `-3`, etc.)
 - Image folders follow the pattern: `static/images/reviews/hotel-name-city/`
 - Photos should be optimized (resized/compressed) before committing
+- Photo originals are NOT archived in `photos/<slug>/` — only `photos/inbox/` and `photos/processed_hashes.json` are tracked
 - The homepage uses Leaflet.js to render an interactive map from `data/locations.json`
 - Each map marker links to the corresponding detail review page
 - Keep templates minimal and semantic

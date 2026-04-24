@@ -8,8 +8,8 @@
   },
   {
     "title": "Hotel Wuppertal",
-    "lat": 51.2557,
-    "lng": 7.1471,
+    "lat": 51.2555,
+    "lng": 7.1472,
     "rating": 3,
     "url": "/reviews/hotel-wuppertal/"
   },
@@ -43,8 +43,8 @@
   },
   {
     "title": "Hotel Wuppertal (2nd Visit)",
-    "lat": 51.2555,
-    "lng": 7.1472,
+    "lat": 51.2557,
+    "lng": 7.1471,
     "rating": 3,
     "url": "/reviews/hotel-wuppertal-2/"
   },

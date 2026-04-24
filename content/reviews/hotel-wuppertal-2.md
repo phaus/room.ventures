@@ -1,6 +1,6 @@
 +++
 title = "Hotel Wuppertal - Elberfeld (2nd Visit)"
-date = 2025-06-10T20:29:39+02:00
+date = 2025-09-02T23:14:32+02:00
 draft = false
 reviewer = "philipp"
 
@@ -8,8 +8,8 @@ reviewer = "philipp"
 name = "Hotel Wuppertal"
 city = "Wuppertal"
 country = "Germany"
-lat = 51.2555
-lng = 7.1472
+lat = 51.2557
+lng = 7.1471
 
 [room]
 type = "Double Room"
@@ -20,16 +20,15 @@ rating = 3
 
 [camera]
 model = "iPhone 16 Pro"
-date_taken = 2025-06-10T20:29:39+02:00
+date_taken = 2025-09-02T23:14:32+02:00
 
 [images]
 room = "images/reviews/hotel-wuppertal-2/room.jpeg"
 room2 = "images/reviews/hotel-wuppertal-2/room2.jpeg"
-room3 = "images/reviews/hotel-wuppertal-2/room3.jpeg"
 map = "images/maps/hotel-wuppertal-2.png"
 +++
 
-A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleiche. Similar story as the first visit -- the bed is comfortable and the TV has been upgraded, but the worn carpet needs replacing and the room feels cramped. Dated furniture and a small window continue to be issues. Good lighting and some in-room amenities are the only real positives.
+An economy hotel room in Wuppertal's Elberfeld district near Schloßbleiche. The bed is comfortable and the TV is new, but that's about where the positives end. Outdated furniture, small windows, and poor lighting make the room feel dark and tired. The carpet and general decor suggest this property hasn't been renovated in a while.
 
 ## AI Analysis
 
@@ -37,5 +36,5 @@ A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleich
 - **Condition:** Showing wear
 - **Luxury Level:** Economy
 - **Cleanliness:** Good
-- **Notable Features:** Comfortable bed, new TV, good lighting
-- **Drawbacks:** Worn carpet, small window, dated furniture, cramped layout
+- **Notable Features:** Comfortable bed, new TV
+- **Drawbacks:** Outdated furniture, small windows, poor lighting
