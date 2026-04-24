@@ -1,0 +1,37 @@
+[
+  {
+    "title": "art'otel cologne",
+    "lat": 50.9305,
+    "lng": 6.9631,
+    "rating": 4,
+    "url": "/reviews/artotel-cologne/"
+  },
+  {
+    "title": "Hotel Wuppertal",
+    "lat": 51.2557,
+    "lng": 7.1471,
+    "rating": 4,
+    "url": "/reviews/hotel-wuppertal/"
+  },
+  {
+    "title": "Hotel Frankfurt",
+    "lat": 50.1095,
+    "lng": 8.6632,
+    "rating": 3,
+    "url": "/reviews/hotel-frankfurt/"
+  },
+  {
+    "title": "Hotel Hamburg",
+    "lat": 53.5660,
+    "lng": 9.9876,
+    "rating": 4,
+    "url": "/reviews/hotel-hamburg/"
+  },
+  {
+    "title": "Holiday Inn Express Düsseldorf Nord",
+    "lat": 51.2515,
+    "lng": 6.7952,
+    "rating": 4,
+    "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
+  }
+]
