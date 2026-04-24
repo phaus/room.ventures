@@ -1,11 +1,11 @@
 +++
-title = "Hotel HafenCity Hamburg"
+title = "Radisson Blu Hamburg"
 date = 2018-10-17T00:00:00+02:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel HafenCity Hamburg"
+name = "Radisson Blu Hamburg"
 city = "Hamburg"
 country = "Germany"
 lat = 53.561389
