@@ -71,7 +71,7 @@
     bounds.push([loc.lat, loc.lng]);
   });
   if (bounds.length) {
-    mymap.fitBounds(bounds, { padding: [40, 40] });
+    mymap.fitBounds(bounds, { padding: [40, 40], animate: false });
   }
 
   function filterCards() {
