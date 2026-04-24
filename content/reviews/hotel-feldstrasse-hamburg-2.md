@@ -1,11 +1,11 @@
 +++
-title = "Hotel Feldstraße Hamburg (2nd Visit)"
+title = "NH Collection Hamburg City (2nd Visit)"
 date = 2016-07-11T00:00:00+02:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel Feldstraße Hamburg"
+name = "NH Collection Hamburg City"
 city = "Hamburg"
 country = "Germany"
 lat = 53.556781

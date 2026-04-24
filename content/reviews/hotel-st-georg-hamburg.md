@@ -1,11 +1,11 @@
 +++
-title = "Hotel St. Georg Hamburg"
+title = "the niu Fusion Hamburg"
 date = 2013-08-12T00:00:00+02:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel St. Georg Hamburg"
+name = "the niu Fusion"
 city = "Hamburg"
 country = "Germany"
 lat = 53.554386

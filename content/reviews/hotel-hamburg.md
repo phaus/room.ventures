@@ -5,7 +5,7 @@ draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel Hamburg"
+name = "Hotel Vorbach"
 city = "Hamburg"
 country = "Germany"
 lat = 53.5660

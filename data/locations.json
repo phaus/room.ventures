@@ -7,21 +7,21 @@
     "url": "/reviews/artotel-cologne/"
   },
   {
-    "title": "Hotel Wuppertal",
+    "title": "Holiday Inn Express Wuppertal",
     "lat": 51.2555,
     "lng": 7.1472,
     "rating": 3,
     "url": "/reviews/hotel-wuppertal/"
   },
   {
-    "title": "Hotel Frankfurt",
+    "title": "25hours Hotel Frankfurt",
     "lat": 50.1095,
     "lng": 8.6632,
     "rating": 3,
     "url": "/reviews/hotel-frankfurt/"
   },
   {
-    "title": "Hotel Hamburg",
+    "title": "Hotel Vorbach Hamburg",
     "lat": 53.5660,
     "lng": 9.9876,
     "rating": 3,
@@ -35,14 +35,14 @@
     "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
   },
   {
-    "title": "Hotel Düsseldorf Stadtmitte",
+    "title": "AMANO Hotel Düsseldorf Mitte",
     "lat": 51.2189,
     "lng": 6.7848,
     "rating": 3,
     "url": "/reviews/hotel-duesseldorf-stadtmitte/"
   },
   {
-    "title": "Hotel Wuppertal (2nd Visit)",
+    "title": "Holiday Inn Express Wuppertal (2nd Visit)",
     "lat": 51.2557,
     "lng": 7.1471,
     "rating": 3,
@@ -56,7 +56,7 @@
     "url": "/reviews/white-tower-muenchen/"
   },
   {
-    "title": "Hotel Nürnberg",
+    "title": "Hotel Advantage Nürnberg",
     "lat": 49.4421,
     "lng": 11.0880,
     "rating": 3,
@@ -84,28 +84,28 @@
     "url": "/reviews/hotel-hafencity-hamburg/"
   },
   {
-    "title": "Hotel Feldstraße Hamburg",
+    "title": "NH Collection Hamburg City",
     "lat": 53.556781,
     "lng": 9.973772,
     "rating": 3,
     "url": "/reviews/hotel-feldstrasse-hamburg/"
   },
   {
-    "title": "Hotel St. Georg Hamburg",
+    "title": "the niu Fusion Hamburg",
     "lat": 53.554386,
     "lng": 10.015308,
     "rating": 2,
     "url": "/reviews/hotel-st-georg-hamburg/"
   },
   {
-    "title": "Hotel Feldstraße Hamburg (2nd Visit)",
+    "title": "NH Collection Hamburg City (2nd Visit)",
     "lat": 53.556781,
     "lng": 9.973772,
     "rating": 3,
     "url": "/reviews/hotel-feldstrasse-hamburg-2/"
   },
   {
-    "title": "Hotel Feldstraße Hamburg (3rd Visit)",
+    "title": "NH Collection Hamburg City (3rd Visit)",
     "lat": 53.556781,
     "lng": 9.973772,
     "rating": 3,
@@ -133,7 +133,7 @@
     "url": "/reviews/desert-camp-er-rissani/"
   },
   {
-    "title": "Hotel Fez",
+    "title": "Menzeh Zalagh Fez",
     "lat": 34.041,
     "lng": -4.994,
     "rating": 3,

@@ -1,11 +1,11 @@
 +++
-title = "Hotel Fez"
+title = "Menzeh Zalagh Fez"
 date = 2017-11-14T18:41:00+01:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel Fez"
+name = "Menzeh Zalagh"
 city = "Fez"
 country = "Morocco"
 lat = 34.041

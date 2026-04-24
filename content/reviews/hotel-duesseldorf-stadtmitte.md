@@ -5,7 +5,7 @@ draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel Düsseldorf Stadtmitte"
+name = "AMANO Hotel Düsseldorf Mitte"
 city = "Düsseldorf"
 country = "Germany"
 lat = 51.2189

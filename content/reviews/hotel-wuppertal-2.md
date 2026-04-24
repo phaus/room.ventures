@@ -1,11 +1,11 @@
 +++
-title = "Hotel Wuppertal - Elberfeld (2nd Visit)"
+title = "Holiday Inn Express Wuppertal (2nd Visit)"
 date = 2025-09-02T23:14:32+02:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Hotel Wuppertal"
+name = "Holiday Inn Express Wuppertal"
 city = "Wuppertal"
 country = "Germany"
 lat = 51.2557
