@@ -46,8 +46,8 @@ When photos are dumped into `photos/inbox/`, the agent should:
 6. **Generate a composite rating** (1-5) based on the AI analysis
 7. **Resize and compress photos** before committing:
    - Resize to max 1600px on the longest side: `sips -Z 1600 <file>`
-   - Compress JPEGs over 500KB using ImageMagick: `magick <file> -quality 80 -strip <file>`
-   - If still over 1MB, resize to 1200px and quality 60: `magick <file> -resize 1200x1200\> -quality 60 -strip <file>`
+   - Compress JPEGs over 500KB using ImageMagick: `magick <file> -auto-orient -quality 80 -strip <file>`
+   - If still over 1MB, resize to 1200px and quality 60: `magick <file> -auto-orient -resize 1200x1200\> -quality 60 -strip <file>`
    - Target: all images under 1MB, ideally 200-500KB
 8. **Generate a Hugo content page** in `content/reviews/` with all metadata in front matter
 9. **Update `data/locations.json`** with the new location entry (lat, lng, rating, title, URL) for the homepage map
