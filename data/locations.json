@@ -145,5 +145,82 @@
     "lng": -6.839,
     "rating": 2,
     "url": "/reviews/hotel-rabat/"
+  },
+  {
+    "title": "Hotel Sigriswil",
+    "lat": 46.7475,
+    "lng": 7.7855,
+    "rating": 3,
+    "url": "/reviews/hotel-sigriswil/"
+  },
+  {
+    "title": "Hotel Gspan Arosa",
+    "lat": 46.7756,
+    "lng": 9.6563,
+    "rating": 3,
+    "url": "/reviews/hotel-gspan-arosa/"
+  },
+  {
+    "title": "Hotel Corallo Milan",
+    "lat": 45.4917,
+    "lng": 9.1615,
+    "rating": 3,
+    "url": "/reviews/hotel-corallo-milan/"
+  },
+  {
+    "title": "Ramada Old City Istanbul",
+    "lat": 41.0119,
+    "lng": 28.9412,
+    "rating": 3,
+    "url": "/reviews/ramada-old-city-istanbul/"
+  },
+  {
+    "title": "Ibis Geneva",
+    "lat": 46.2071,
+    "lng": 6.1386,
+    "rating": 3,
+    "url": "/reviews/ibis-geneva/"
+  },
+  {
+    "title": "Tschuggen Grand Hotel Arosa",
+    "lat": 46.7771,
+    "lng": 9.6704,
+    "rating": 4,
+    "url": "/reviews/tschuggen-grand-hotel-arosa/"
+  },
+  {
+    "title": "Royal Saint George Interlaken",
+    "lat": 46.6888,
+    "lng": 7.8627,
+    "rating": 3,
+    "url": "/reviews/royal-saint-george-interlaken/"
+  },
+  {
+    "title": "Hotel Schweizerhof Morosani Davos",
+    "lat": 46.7954,
+    "lng": 9.8217,
+    "rating": 3,
+    "url": "/reviews/hotel-schweizerhof-morosani-davos/"
+  },
+  {
+    "title": "Chalet Belmont Flims",
+    "lat": 46.8261,
+    "lng": 9.2849,
+    "rating": 4,
+    "url": "/reviews/chalet-belmont-flims/"
+  },
+  {
+    "title": "Labranda Riviera Marina Mogán",
+    "lat": 27.7987,
+    "lng": -15.7330,
+    "rating": 3,
+    "url": "/reviews/labranda-riviera-marina-mogan/"
+  },
+  {
+    "title": "Hotel Stafstedt",
+    "lat": 54.1845,
+    "lng": 9.6737,
+    "rating": 3,
+    "url": "/reviews/hotel-stafstedt/"
   }
 ]
