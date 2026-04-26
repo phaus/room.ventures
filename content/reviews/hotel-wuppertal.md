@@ -1,40 +1,39 @@
 +++
 title = "Holiday Inn Express Wuppertal"
-date = 2025-06-10T20:29:39+02:00
+date = 2024-03-04T19:47:15+01:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Holiday Inn Express Wuppertal"
+name = "Holiday Inn Express"
 city = "Wuppertal"
 country = "Germany"
-lat = 51.2555
-lng = 7.1472
+lat = 51.256109722222206
+lng = 7.146820833333329
 
 [room]
 type = "Double Room"
-style = "Generic"
-age = "Showing wear"
-luxury = "Economy"
+style = "Modern"
+age = "Well-maintained"
+luxury = "Mid-range"
 rating = 3
 
 [camera]
-model = "iPhone 16 Pro"
-date_taken = 2025-06-10T20:29:39+02:00
+model = "iPhone 14 Pro"
+date_taken = 2024-03-04T19:47:15+01:00
 
 [images]
 room = "images/reviews/hotel-wuppertal/room.jpeg"
-room2 = "images/reviews/hotel-wuppertal/room2.jpeg"
-room3 = "images/reviews/hotel-wuppertal/room3.jpeg"
+bathroom = "images/reviews/hotel-wuppertal/bathroom.jpeg"
 +++
 
-A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleiche. Similar story as the first visit -- the bed is comfortable and the TV has been upgraded, but the worn carpet needs replacing and the room feels cramped. Dated furniture and a small window continue to be issues. Good lighting and some in-room amenities are the only real positives.
+The Holiday Inn Express in Wuppertal offers a modern double room that fits squarely into the mid-range category. The room appears well-maintained with clean conditions throughout. A bathroom with a shower and toilet.
 
 ## AI Analysis
 
-- **Style:** Generic
-- **Condition:** Showing wear
-- **Luxury Level:** Economy
-- **Cleanliness:** Good
-- **Notable Features:** Comfortable bed, new TV, good lighting
-- **Drawbacks:** Worn carpet, small window, dated furniture, cramped layout
+- **Style:** Modern
+- **Condition:** Well-maintained
+- **Luxury Level:** Mid-range 
+- **Cleanliness:** Clean
+- **Notable Features:** Shower, Toilet
+- **Drawbacks:** No bathroom

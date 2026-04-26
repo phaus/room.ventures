@@ -1,39 +1,39 @@
 +++
 title = "Holiday Inn Express Wuppertal (2nd Visit)"
-date = 2025-09-02T23:14:32+02:00
+date = 2024-06-10T23:09:55+01:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
-name = "Holiday Inn Express Wuppertal"
+name = "Holiday Inn Express"
 city = "Wuppertal"
 country = "Germany"
-lat = 51.2557
-lng = 7.1471
+lat = 51.255743055555556
+lng = 7.146518055555555
 
 [room]
-type = "Double Room"
-style = "Generic"
-age = "Showing wear"
-luxury = "Economy"
-rating = 3
+type = "Hotel Room"
+style = "Modern"
+age = "New"
+luxury = "Mid-range"
+rating = 4
 
 [camera]
-model = "iPhone 16 Pro"
-date_taken = 2025-09-02T23:14:32+02:00
+model = "iPhone 14 Pro"
+date_taken = 2024-06-10T23:09:55+01:00
 
 [images]
 room = "images/reviews/hotel-wuppertal-2/room.jpeg"
 room2 = "images/reviews/hotel-wuppertal-2/room2.jpeg"
 +++
 
-An economy hotel room in Wuppertal's Elberfeld district near Schloßbleiche. The bed is comfortable and the TV is new, but that's about where the positives end. Outdated furniture, small windows, and poor lighting make the room feel dark and tired. The carpet and general decor suggest this property hasn't been renovated in a while.
+The Holiday Inn Express in Wuppertal offers a modern hotel room that fits squarely into the mid-range category. The room appears new with good conditions throughout. A basic hotel room with a bed, TV, and bathroom. It is small and has no view. A modern hotel room with a flat-screen TV and free Wi-Fi. The room is clean and well-maintained, but it does not have a view and is not a bathroom.
 
 ## AI Analysis
 
-- **Style:** Generic
-- **Condition:** Showing wear
-- **Luxury Level:** Economy
+- **Style:** Modern
+- **Condition:** New
+- **Luxury Level:** Mid-range 
 - **Cleanliness:** Good
-- **Notable Features:** Comfortable bed, new TV
-- **Drawbacks:** Outdated furniture, small windows, poor lighting
+- **Notable Features:** Free Wi-Fi, Flat-Screen TV, TV, Bed, Air Conditioning
+- **Drawbacks:** Limited Space, No View, Small

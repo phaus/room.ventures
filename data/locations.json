@@ -7,11 +7,11 @@
     "url": "/reviews/artotel-cologne/"
   },
   {
-    "title": "Holiday Inn Express Wuppertal",
+    "title": "Holiday Inn Express Wuppertal (4th Visit)",
     "lat": 51.2555,
     "lng": 7.1472,
     "rating": 3,
-    "url": "/reviews/hotel-wuppertal/"
+    "url": "/reviews/hotel-wuppertal-4/"
   },
   {
     "title": "25hours Hotel Frankfurt",
@@ -22,17 +22,17 @@
   },
   {
     "title": "Hotel Vorbach Hamburg",
-    "lat": 53.5660,
+    "lat": 53.566,
     "lng": 9.9876,
     "rating": 3,
     "url": "/reviews/hotel-hamburg/"
   },
   {
-    "title": "Holiday Inn Express Düsseldorf Nord",
+    "title": "Holiday Inn Express Düsseldorf Nord (2nd Visit)",
     "lat": 51.2515,
     "lng": 6.7952,
     "rating": 3,
-    "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
+    "url": "/reviews/holiday-inn-express-duesseldorf-nord-2/"
   },
   {
     "title": "AMANO Hotel Düsseldorf Mitte",
@@ -42,11 +42,11 @@
     "url": "/reviews/hotel-duesseldorf-stadtmitte/"
   },
   {
-    "title": "Holiday Inn Express Wuppertal (2nd Visit)",
+    "title": "Holiday Inn Express Wuppertal (5th Visit)",
     "lat": 51.2557,
     "lng": 7.1471,
     "rating": 3,
-    "url": "/reviews/hotel-wuppertal-2/"
+    "url": "/reviews/hotel-wuppertal-5/"
   },
   {
     "title": "White Tower",
@@ -58,7 +58,7 @@
   {
     "title": "Hotel Advantage Nürnberg",
     "lat": 49.4421,
-    "lng": 11.0880,
+    "lng": 11.088,
     "rating": 3,
     "url": "/reviews/hotel-nuernberg/"
   },
@@ -212,7 +212,7 @@
   {
     "title": "Labranda Riviera Marina Mogán",
     "lat": 27.7987,
-    "lng": -15.7330,
+    "lng": -15.733,
     "rating": 3,
     "url": "/reviews/labranda-riviera-marina-mogan/"
   },
@@ -222,5 +222,460 @@
     "lng": 9.6737,
     "rating": 3,
     "url": "/reviews/hotel-stafstedt/"
+  },
+  {
+    "title": "Altstadt Hotel Barcelona Duesseldorf",
+    "lat": 51.227775,
+    "lng": 6.77509444444444,
+    "rating": 3,
+    "url": "/reviews/altstadt-hotel-barcelona-duesseldorf/"
+  },
+  {
+    "title": "Anantara Grand Hotel Krasnapolsky Amsterdam (2nd Visit)",
+    "lat": 52.3719708333333,
+    "lng": 4.8944875,
+    "rating": 3,
+    "url": "/reviews/anantara-grand-hotel-krasnapolsky-amsterdam-2/"
+  },
+  {
+    "title": "Anantara Grand Hotel Krasnapolsky Amsterdam",
+    "lat": 52.3720944444444,
+    "lng": 4.89466111111111,
+    "rating": 4,
+    "url": "/reviews/anantara-grand-hotel-krasnapolsky-amsterdam/"
+  },
+  {
+    "title": "ATLANTIC Congress Hotel Essen Essen",
+    "lat": 51.4314013888889,
+    "lng": 6.999025,
+    "rating": 4,
+    "url": "/reviews/atlantic-congress-hotel-essen-essen/"
+  },
+  {
+    "title": "Bonn Marriott World Conference Hotel Bonn",
+    "lat": 50.7193638888889,
+    "lng": 7.12235277777778,
+    "rating": 4,
+    "url": "/reviews/bonn-marriott-world-conference-hotel-bonn/"
+  },
+  {
+    "title": "Boutique Hotel CANEL Würzburg",
+    "lat": 49.7983083333333,
+    "lng": 9.92556388888889,
+    "rating": 4,
+    "url": "/reviews/boutique-hotel-canel-wuerzburg/"
+  },
+  {
+    "title": "Chalet Belmont Flims (2nd Visit)",
+    "lat": 46.82612638888885,
+    "lng": 9.284868055555556,
+    "rating": 4,
+    "url": "/reviews/chalet-belmont-flims-2/"
+  },
+  {
+    "title": "Clayton Hotel Düsseldorf Duesseldorf",
+    "lat": 51.2227777777778,
+    "lng": 6.788827777777775,
+    "rating": 4,
+    "url": "/reviews/clayton-hotel-duesseldorf-duesseldorf/"
+  },
+  {
+    "title": "Dalt Muntanya Bunyola",
+    "lat": 39.7343212962963,
+    "lng": 2.7605648148148134,
+    "rating": 3,
+    "url": "/reviews/dalt-muntanya-bunyola/"
+  },
+  {
+    "title": "Delta Hotels by Marriott Frankfurt Offenbach Offenbach am Main",
+    "lat": 50.1081513888889,
+    "lng": 8.73133611111111,
+    "rating": 4,
+    "url": "/reviews/delta-hotels-by-marriott-frankfurt-offenbach-offenbach-am-main/"
+  },
+  {
+    "title": "Diehls Hotel Koblenz",
+    "lat": 50.3574305555556,
+    "lng": 7.61018888888889,
+    "rating": 4,
+    "url": "/reviews/diehls-hotel-koblenz/"
+  },
+  {
+    "title": "Dom Hotel Limburg an der Lahn",
+    "lat": 50.3872083333333,
+    "lng": 8.0645,
+    "rating": 4,
+    "url": "/reviews/dom-hotel-limburg-an-der-lahn/"
+  },
+  {
+    "title": "Gerbermühle Frankfurt am Main",
+    "lat": 50.1059333333333,
+    "lng": 8.72091388888889,
+    "rating": 4,
+    "url": "/reviews/gerbermuehle-frankfurt-am-main/"
+  },
+  {
+    "title": "H2 Hotel München Messe Munich (2nd Visit)",
+    "lat": 48.137325,
+    "lng": 11.6897194444444,
+    "rating": 4,
+    "url": "/reviews/h2-hotel-muenchen-messe-munich-2/"
+  },
+  {
+    "title": "H2 Hotel München Messe Munich",
+    "lat": 48.136891666666656,
+    "lng": 11.689325,
+    "rating": 4,
+    "url": "/reviews/h2-hotel-muenchen-messe-munich/"
+  },
+  {
+    "title": "Heathrow Lodge London",
+    "lat": 51.480606481481495,
+    "lng": -0.492197222222222,
+    "rating": 3,
+    "url": "/reviews/heathrow-lodge-london/"
+  },
+  {
+    "title": "Holiday Inn Express Düsseldorf Nord Duesseldorf",
+    "lat": 51.251588888888904,
+    "lng": 6.795402777777779,
+    "rating": 4,
+    "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
+  },
+  {
+    "title": "Hotel 66 Hamburg (2nd Visit)",
+    "lat": 53.5538305555556,
+    "lng": 9.962455555555554,
+    "rating": 4,
+    "url": "/reviews/hotel-66-hamburg-2/"
+  },
+  {
+    "title": "Hotel 66 Hamburg",
+    "lat": 53.55389166666665,
+    "lng": 9.9634,
+    "rating": 4,
+    "url": "/reviews/hotel-66-hamburg/"
+  },
+  {
+    "title": "Hotel Berlin Treptow Berlin",
+    "lat": 52.490969444444445,
+    "lng": 13.4486513888889,
+    "rating": 4,
+    "url": "/reviews/hotel-berlin-treptow-berlin/"
+  },
+  {
+    "title": "Hotel Bonn Voyage Bonn",
+    "lat": 50.7386972222222,
+    "lng": 7.10155,
+    "rating": 3,
+    "url": "/reviews/hotel-bonn-voyage-bonn/"
+  },
+  {
+    "title": "Hotel Budapester Hof Hamburg",
+    "lat": 53.5554166666667,
+    "lng": 9.96475,
+    "rating": 4,
+    "url": "/reviews/hotel-budapester-hof-hamburg/"
+  },
+  {
+    "title": "Menzeh Zalagh Fes (2nd Visit)",
+    "lat": 34.04145694444445,
+    "lng": -4.99445138888889,
+    "rating": 4,
+    "url": "/reviews/hotel-fez-2/"
+  },
+  {
+    "title": "Hotel Gastwerk Hamburg",
+    "lat": 53.5624888888889,
+    "lng": 9.918859722222225,
+    "rating": 4,
+    "url": "/reviews/hotel-gastwerk-hamburg/"
+  },
+  {
+    "title": "Hotel Groß Bergkirchen",
+    "lat": 48.2544513888889,
+    "lng": 11.36396388888885,
+    "rating": 4,
+    "url": "/reviews/hotel-gross-bergkirchen/"
+  },
+  {
+    "title": "Hotel Gspan Arosa (2nd Visit)",
+    "lat": 46.7756305555556,
+    "lng": 9.65632222222222,
+    "rating": 4,
+    "url": "/reviews/hotel-gspan-arosa-2/"
+  },
+  {
+    "title": "Hotel Hafen Hamburg Hamburg",
+    "lat": 53.54670555555557,
+    "lng": 9.969773148148148,
+    "rating": 4,
+    "url": "/reviews/hotel-hafen-hamburg/"
+  },
+  {
+    "title": "Hotel Leipzig Leipzig",
+    "lat": 51.371399999999994,
+    "lng": 12.3834037037037,
+    "rating": 4,
+    "url": "/reviews/hotel-leipzig-leipzig/"
+  },
+  {
+    "title": "Hotel Les Almohades Casablanca",
+    "lat": 33.5929444444444,
+    "lng": -7.62325833333333,
+    "rating": 4,
+    "url": "/reviews/hotel-les-almohades-casablanca/"
+  },
+  {
+    "title": "Hotel Meliã Duesseldorf",
+    "lat": 51.2330194444444,
+    "lng": 6.77865277777778,
+    "rating": 4,
+    "url": "/reviews/hotel-melia-duesseldorf/"
+  },
+  {
+    "title": "Hotel Oudaya Marrakech",
+    "lat": 31.6331694444444,
+    "lng": -8.01669722222222,
+    "rating": 4,
+    "url": "/reviews/hotel-oudaya-marrakech/"
+  },
+  {
+    "title": "Hotel Porlezza Porlezza",
+    "lat": 45.9974277777778,
+    "lng": 9.09506111111111,
+    "rating": 4,
+    "url": "/reviews/hotel-porlezza-porlezza/"
+  },
+  {
+    "title": "Hotel Prens Berlin",
+    "lat": 52.495075,
+    "lng": 13.4211666666667,
+    "rating": 4,
+    "url": "/reviews/hotel-prens-berlin/"
+  },
+  {
+    "title": "Hotel des Oudaias Rabat (2nd Visit)",
+    "lat": 34.0329388888889,
+    "lng": -6.83923611111111,
+    "rating": 3,
+    "url": "/reviews/hotel-rabat-2/"
+  },
+  {
+    "title": "Hotel Radisson Blu Cologne",
+    "lat": 50.94352083333335,
+    "lng": 6.985365277777775,
+    "rating": 4,
+    "url": "/reviews/hotel-radisson-blu-cologne/"
+  },
+  {
+    "title": "Hotel Schweizerhof Morosani Davos (2nd Visit)",
+    "lat": 46.7953513888889,
+    "lng": 9.82169722222222,
+    "rating": 3,
+    "url": "/reviews/hotel-schweizerhof-morosani-davos-2/"
+  },
+  {
+    "title": "Holiday Inn Express Wuppertal (2nd Visit)",
+    "lat": 51.255743055555556,
+    "lng": 7.146518055555555,
+    "rating": 4,
+    "url": "/reviews/hotel-wuppertal-2/"
+  },
+  {
+    "title": "Holiday Inn Express Wuppertal (3rd Visit)",
+    "lat": 51.2557305555556,
+    "lng": 7.14663611111111,
+    "rating": 4,
+    "url": "/reviews/hotel-wuppertal-3/"
+  },
+  {
+    "title": "Holiday Inn Express Wuppertal",
+    "lat": 51.256109722222206,
+    "lng": 7.146820833333329,
+    "rating": 3,
+    "url": "/reviews/hotel-wuppertal/"
+  },
+  {
+    "title": "Hyatt Regency Cologne Cologne",
+    "lat": 50.9408722222222,
+    "lng": 6.96981944444444,
+    "rating": 3,
+    "url": "/reviews/hyatt-regency-cologne-cologne/"
+  },
+  {
+    "title": "Ibis Geneva (2nd Visit)",
+    "lat": 46.2071277777778,
+    "lng": 6.13861111111111,
+    "rating": 4,
+    "url": "/reviews/ibis-geneva-2/"
+  },
+  {
+    "title": "Ibis Köln Centrum Cologne",
+    "lat": 50.9299458333333,
+    "lng": 6.944841666666671,
+    "rating": 4,
+    "url": "/reviews/ibis-koeln-centrum-cologne/"
+  },
+  {
+    "title": "Ibis Styles London Heathrow Airport Hotel London",
+    "lat": 51.482501666666664,
+    "lng": -0.44876388888888885,
+    "rating": 3,
+    "url": "/reviews/ibis-styles-london-heathrow-airport-hotel-london/"
+  },
+  {
+    "title": "Lancaster Hall Hotel London",
+    "lat": 51.5141333333333,
+    "lng": -0.178191666666667,
+    "rating": 4,
+    "url": "/reviews/lancaster-hall-hotel-london/"
+  },
+  {
+    "title": "Landhaus Schieder Schieder-Schwalenberg",
+    "lat": 51.91500694444445,
+    "lng": 9.14855,
+    "rating": 4,
+    "url": "/reviews/landhaus-schieder-schieder-schwalenberg/"
+  },
+  {
+    "title": "Leonardo Hotel Amsterdam",
+    "lat": 52.3625666666667,
+    "lng": 4.87736666666667,
+    "rating": 4,
+    "url": "/reviews/leonardo-hotel-amsterdam/"
+  },
+  {
+    "title": "Leonardo Royal Hotel Berlin Alexanderplatz Berlin",
+    "lat": 52.527506481481474,
+    "lng": 13.4231787037037,
+    "rating": 4,
+    "url": "/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/"
+  },
+  {
+    "title": "LOGINN Hotel Leipzig by ACHAT Leipzig",
+    "lat": 51.401775,
+    "lng": 12.3891972222222,
+    "rating": 4,
+    "url": "/reviews/loginn-hotel-leipzig-by-achat-leipzig/"
+  },
+  {
+    "title": "Maritim Hotel am Schlossgarten Fulda Fulda",
+    "lat": 50.555680555555554,
+    "lng": 9.67488333333333,
+    "rating": 3,
+    "url": "/reviews/maritim-hotel-am-schlossgarten-fulda-fulda/"
+  },
+  {
+    "title": "Mercure Hotel München Neuperlach Süd Munich",
+    "lat": 48.09179629629627,
+    "lng": 11.643700925925934,
+    "rating": 4,
+    "url": "/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/"
+  },
+  {
+    "title": "Miramar Essaouira",
+    "lat": 31.5083444444444,
+    "lng": -9.764589814814821,
+    "rating": 4,
+    "url": "/reviews/miramar-essaouira/"
+  },
+  {
+    "title": "Mövenpick Hamburg",
+    "lat": 53.5647125,
+    "lng": 9.97057638888889,
+    "rating": 4,
+    "url": "/reviews/moevenpick-hamburg/"
+  },
+  {
+    "title": "Motel One Berlin-Mitte Berlin",
+    "lat": 52.50418888888885,
+    "lng": 13.411136111111102,
+    "rating": 3,
+    "url": "/reviews/motel-one-berlin-mitte-berlin/"
+  },
+  {
+    "title": "Motel One Leipzig-Augustusplatz Leipzig",
+    "lat": 51.3397611111111,
+    "lng": 12.3790638888889,
+    "rating": 4,
+    "url": "/reviews/motel-one-leipzig-augustusplatz-leipzig/"
+  },
+  {
+    "title": "Palma Bay Palma",
+    "lat": 39.562842592592595,
+    "lng": 2.6651861111111135,
+    "rating": 4,
+    "url": "/reviews/palma-bay-palma/"
+  },
+  {
+    "title": "Radisson Blu Hotel Edinburgh",
+    "lat": 55.949875,
+    "lng": -3.186641666666665,
+    "rating": 4,
+    "url": "/reviews/radisson-blu-hotel-edinburgh/"
+  },
+  {
+    "title": "Radisson Blu Leipzig",
+    "lat": 51.3386212962963,
+    "lng": 12.382517592592569,
+    "rating": 4,
+    "url": "/reviews/radisson-blu-leipzig/"
+  },
+  {
+    "title": "Radisson Blu Scandinavia Hotel Duesseldorf",
+    "lat": 51.24665694444445,
+    "lng": 6.768830555555555,
+    "rating": 3,
+    "url": "/reviews/radisson-blu-scandinavia-hotel-duesseldorf/"
+  },
+  {
+    "title": "Royal Saint George Interlaken (2nd Visit)",
+    "lat": 46.6887555555556,
+    "lng": 7.86268333333333,
+    "rating": 4,
+    "url": "/reviews/royal-saint-george-interlaken-2/"
+  },
+  {
+    "title": "Seminar + Freizeithotel Grosse Ledder Wermelskirchen",
+    "lat": 51.0992277777778,
+    "lng": 7.22171111111111,
+    "rating": 4,
+    "url": "/reviews/seminar-freizeithotel-grosse-ledder-wermelskirchen/"
+  },
+  {
+    "title": "Spark by Hilton Wuppertal City Centre Wuppertal",
+    "lat": 51.25573703703703,
+    "lng": 7.1518749999999995,
+    "rating": 4,
+    "url": "/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/"
+  },
+  {
+    "title": "Suite Monte Golf Mogan",
+    "lat": 27.7986472222222,
+    "lng": -15.733025,
+    "rating": 4,
+    "url": "/reviews/suite-monte-golf-mogan/"
+  },
+  {
+    "title": "Tschuggen Grand Hotel Arosa (2nd Visit)",
+    "lat": 46.7770722222222,
+    "lng": 9.67042777777778,
+    "rating": 4,
+    "url": "/reviews/tschuggen-grand-hotel-arosa-2/"
+  },
+  {
+    "title": "Vier Jahreszeiten Berlin",
+    "lat": 52.498613888888855,
+    "lng": 13.4260027777778,
+    "rating": 4,
+    "url": "/reviews/vier-jahreszeiten-berlin/"
+  },
+  {
+    "title": "Waldhotel Heiligenhaus",
+    "lat": 51.3329703703704,
+    "lng": 6.980833333333333,
+    "rating": 3,
+    "url": "/reviews/waldhotel-heiligenhaus/"
   }
 ]

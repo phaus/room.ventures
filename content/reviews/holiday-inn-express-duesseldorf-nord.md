@@ -1,39 +1,39 @@
 +++
-title = "Holiday Inn Express Düsseldorf Nord"
-date = 2026-03-02T19:34:50+01:00
+title = "Holiday Inn Express Düsseldorf Nord Duesseldorf"
+date = 2024-12-09T18:42:11+01:00
 draft = false
 reviewer = "philipp"
 
 [hotel]
 name = "Holiday Inn Express Düsseldorf Nord"
-city = "Düsseldorf"
+city = "Duesseldorf"
 country = "Germany"
-lat = 51.2515
-lng = 6.7952
+lat = 51.251588888888904
+lng = 6.795402777777779
 
 [room]
 type = "Double Room"
-style = "Generic"
-age = "Showing wear"
-luxury = "Mid-range"
-rating = 3
+style = "Modern"
+age = "New"
+luxury = "Budget"
+rating = 4
 
 [camera]
 model = "iPhone 16 Pro"
-date_taken = 2026-03-02T19:34:50+01:00
+date_taken = 2024-12-09T18:42:11+01:00
 
 [images]
-room = "images/reviews/holiday-inn-express-duesseldorf-nord/room.jpeg"
-room2 = "images/reviews/holiday-inn-express-duesseldorf-nord/room2.jpeg"
+bathroom = "images/reviews/holiday-inn-express-duesseldorf-nord/bathroom.jpeg"
+bathroom2 = "images/reviews/holiday-inn-express-duesseldorf-nord/bathroom2.jpeg"
 +++
 
-A generic chain hotel room at Holiday Inn Express Düsseldorf Nord. Functional and clean, but showing wear with small windows, dated lighting fixtures, and the typical budget-chain aesthetic. The bed is comfortable enough and the room has average size, but there is nothing memorable about the experience. Exactly what you'd expect from an Express-tier hotel.
+The Holiday Inn Express Düsseldorf Nord in Duesseldorf offers a modern double room that fits squarely into the budget category. The room appears new with good conditions throughout. A small, modern room with a TV and air conditioning, but no view and no air conditioning in the bathroom. A modern hotel room with a clean and comfortable design. The room has a TV, air conditioning, and free Wi-Fi. However, it has no view and no room service. The bathroom is clean and well-maintained.
 
 ## AI Analysis
 
-- **Style:** Generic
-- **Condition:** Showing wear
-- **Luxury Level:** Mid-range
+- **Style:** Modern
+- **Condition:** New
+- **Luxury Level:** Budget 
 - **Cleanliness:** Good
-- **Notable Features:** Cleanliness, average size, modern furniture
-- **Drawbacks:** Small windows, dated lighting, generic chain feel
+- **Notable Features:** TV, Free Wi-Fi, Wardrobe, Air Conditioning
+- **Drawbacks:** No View, No Air-Conditioning, No Room Service
