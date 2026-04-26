@@ -23,7 +23,7 @@ model = "iPhone XS"
 date_taken = 2020-01-21T17:13:02+01:00
 
 [images]
-bathroom = "images/reviews/hotel-prens-berlin/bathroom.jpg"
+room = "images/reviews/hotel-prens-berlin/room.jpg"
 +++
 
 The Hotel Prens in Berlin offers a modern double room that fits squarely into the upscale category. The room appears new with excellent conditions throughout. A small, modern, new, high-luxury, clean room with air conditioner, TV, TV, wardrobe, and washroom.

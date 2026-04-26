@@ -23,8 +23,8 @@ model = "iPhone XS"
 date_taken = 2019-12-11T18:21:21+01:00
 
 [images]
-bathroom = "images/reviews/chalet-belmont-flims-2/bathroom.jpg"
-bathroom2 = "images/reviews/chalet-belmont-flims-2/bathroom2.jpg"
+room = "images/reviews/chalet-belmont-flims-2/room.jpg"
+room2 = "images/reviews/chalet-belmont-flims-2/room2.jpg"
 +++
 
 The Chalet Belmont in Flims offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern hotel room with a flat screen TV and free Wi-Fi. It has a modern style and is clean and clean. However, it has no view and no room service. A modern, new, and clean bathroom with a shower, bathtub, toilet, sink, and mirror.

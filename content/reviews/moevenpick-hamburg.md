@@ -23,8 +23,8 @@ model = "iPhone 16 Pro"
 date_taken = 2024-12-26T21:21:45+01:00
 
 [images]
-bathroom = "images/reviews/moevenpick-hamburg/bathroom.jpeg"
-bathroom2 = "images/reviews/moevenpick-hamburg/bathroom2.jpeg"
+room = "images/reviews/moevenpick-hamburg/room.jpeg"
+room2 = "images/reviews/moevenpick-hamburg/room2.jpeg"
 +++
 
 The Mövenpick in Hamburg offers a modern double room that fits squarely into the mid-range category. The room appears new with clean conditions throughout. Cozy, simple room with a modern design. Good for a quick stay. A modern hotel room with a flat-screen TV, free Wi-Fi, air-conditioned, free-complimentary-tea-coffee, and a bathroom en-suite.

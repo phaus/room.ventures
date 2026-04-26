@@ -23,8 +23,8 @@ model = "iPhone 7"
 date_taken = 2017-11-07T21:28:10+01:00
 
 [images]
-bathroom = "images/reviews/hotel-les-almohades-casablanca/bathroom.jpg"
-bathroom2 = "images/reviews/hotel-les-almohades-casablanca/bathroom2.jpeg"
+room = "images/reviews/hotel-les-almohades-casablanca/room.jpg"
+room2 = "images/reviews/hotel-les-almohades-casablanca/room2.jpeg"
 +++
 
 The Hotel Les Almohades in Casablanca offers a modern double room that fits squarely into the mid-range category. The room appears new with clean conditions throughout. A modern, new, and basic double room with a clean and free environment. A double room with a modern style, new age, high luxury, clean, with air conditioning, TV, washroom, grooming, and TV.

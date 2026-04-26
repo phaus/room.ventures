@@ -23,7 +23,7 @@ model = "iPhone 14 Pro"
 date_taken = 2023-12-13T21:48:30+01:00
 
 [images]
-bathroom = "images/reviews/seminar-freizeithotel-grosse-ledder-wermelskirchen/bathroom.jpeg"
+room = "images/reviews/seminar-freizeithotel-grosse-ledder-wermelskirchen/room.jpeg"
 +++
 
 The Seminar + Freizeithotel Grosse Ledder in Wermelskirchen offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. This hotel room is located on the second floor. The room is modern and has a flat-screen TV, free Wi-Fi, air-conditioning, a bathroom-ensuite, and cable-internet. However, it has no view and no en-suite bathroom for all rooms.

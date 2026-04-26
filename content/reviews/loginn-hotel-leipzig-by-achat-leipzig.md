@@ -23,7 +23,7 @@ model = "iPhone 7"
 date_taken = 2017-12-26T22:47:30+01:00
 
 [images]
-bathroom = "images/reviews/loginn-hotel-leipzig-by-achat-leipzig/bathroom.jpg"
+room = "images/reviews/loginn-hotel-leipzig-by-achat-leipzig/room.jpg"
 +++
 
 The LOGINN Hotel Leipzig by ACHAT in Leipzig offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern, clean, and well-equipped hotel room with a flat-screen TV, free Wi-Fi, and a comfortable bed. However, it can be noisy and has a small, but clean, bathroom.

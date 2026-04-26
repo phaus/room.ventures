@@ -23,8 +23,8 @@ model = "iPhone 14 Pro"
 date_taken = 2024-04-17T14:09:15+01:00
 
 [images]
-bathroom = "images/reviews/atlantic-congress-hotel-essen-essen/bathroom.jpeg"
-bathroom2 = "images/reviews/atlantic-congress-hotel-essen-essen/bathroom2.jpeg"
+room = "images/reviews/atlantic-congress-hotel-essen-essen/room.jpeg"
+room2 = "images/reviews/atlantic-congress-hotel-essen-essen/room2.jpeg"
 +++
 
 The ATLANTIC Congress Hotel Essen in Essen offers a modern double room that fits squarely into the upscale category. The room appears new with excellent conditions throughout. A modern hotel room with a flat-screen TV, free Wi-Fi, and a safe. It has a modern style and is new, with excellent cleanliness. However, it has no view and limited parking. A small, modern hotel room with a TV, minibar, and air conditioning. It's a good place to stay, but it's not very quiet and the room is small.

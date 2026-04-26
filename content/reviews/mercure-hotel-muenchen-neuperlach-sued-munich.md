@@ -23,9 +23,9 @@ model = "iPhone XS"
 date_taken = 2019-10-13T22:31:11+01:00
 
 [images]
+room = "images/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/room.jpg"
+room2 = "images/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/room2.jpg"
 bathroom = "images/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/bathroom.jpg"
-bathroom2 = "images/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/bathroom2.jpg"
-bathroom3 = "images/reviews/mercure-hotel-muenchen-neuperlach-sued-munich/bathroom3.jpg"
 +++
 
 The Mercure Hotel München Neuperlach Süd in Munich offers a modern double room that fits squarely into the upscale category. The room appears new with good conditions throughout. A standard bathroom A modern hotel room with a TV, minibar, air conditioning, and free Wi-Fi. It has a new age, is clean, and has some drawbacks, such as no view, is noisy, and has no room service. A modern hotel room with a flat-screen TV, free Wi-Fi, and a modern bathroom.

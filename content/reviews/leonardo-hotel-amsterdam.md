@@ -23,7 +23,7 @@ model = "iPhone XS"
 date_taken = 2018-10-25T18:13:24+01:00
 
 [images]
-bathroom = "images/reviews/leonardo-hotel-amsterdam/bathroom.jpg"
+room = "images/reviews/leonardo-hotel-amsterdam/room.jpg"
 +++
 
 The Leonardo Hotel in Amsterdam offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern, new, and very clean studio room with air-conditioning, TV, free internet, and free access to internet. It has no view from the window.

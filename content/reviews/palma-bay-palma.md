@@ -23,9 +23,9 @@ model = "iPhone 7"
 date_taken = 2018-06-13T16:40:43+01:00
 
 [images]
+room = "images/reviews/palma-bay-palma/room.jpg"
+room2 = "images/reviews/palma-bay-palma/room2.jpg"
 bathroom = "images/reviews/palma-bay-palma/bathroom.jpg"
-bathroom2 = "images/reviews/palma-bay-palma/bathroom2.jpg"
-bathroom3 = "images/reviews/palma-bay-palma/bathroom3.jpg"
 +++
 
 The Palma Bay in Palma offers a modern double room that fits squarely into the upscale category. The room appears new with excellent conditions throughout. A modern hotel room with a new age, high luxury, and excellent cleanliness. It has a TV, air conditioner, and a bathroom. The room has no view and no food. A modern, new, and clean bathroom with a shower, toilet, and bathroom.

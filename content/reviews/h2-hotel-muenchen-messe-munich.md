@@ -23,8 +23,8 @@ model = "iPhone 7"
 date_taken = 2018-02-07T20:08:08+01:00
 
 [images]
-bathroom = "images/reviews/h2-hotel-muenchen-messe-munich/bathroom.jpg"
-bathroom2 = "images/reviews/h2-hotel-muenchen-messe-munich/bathroom2.jpg"
+room = "images/reviews/h2-hotel-muenchen-messe-munich/room.jpg"
+room2 = "images/reviews/h2-hotel-muenchen-messe-munich/room2.jpg"
 +++
 
 The H2 Hotel München Messe in Munich offers a modern double room that fits squarely into the upscale category. The room appears new with clean conditions throughout. A modern hotel room with a new age and high level of luxury. The room is clean and has a TV, air conditioning, a washroom, a bathroom, and cable TV. However, it has no view and no breakfast. A modern, new, basic, good, shower, toilet, sinks, no-Enniti.

@@ -23,8 +23,8 @@ model = "iPhone 16 Pro"
 date_taken = 2024-12-09T18:42:11+01:00
 
 [images]
-bathroom = "images/reviews/holiday-inn-express-duesseldorf-nord/bathroom.jpeg"
-bathroom2 = "images/reviews/holiday-inn-express-duesseldorf-nord/bathroom2.jpeg"
+room = "images/reviews/holiday-inn-express-duesseldorf-nord/room.jpeg"
+room2 = "images/reviews/holiday-inn-express-duesseldorf-nord/room2.jpeg"
 +++
 
 The Holiday Inn Express Düsseldorf Nord in Duesseldorf offers a modern double room that fits squarely into the budget category. The room appears new with good conditions throughout. A small, modern room with a TV and air conditioning, but no view and no air conditioning in the bathroom. A modern hotel room with a clean and comfortable design. The room has a TV, air conditioning, and free Wi-Fi. However, it has no view and no room service. The bathroom is clean and well-maintained.

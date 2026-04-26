@@ -23,9 +23,9 @@ model = "iPhone 14 Pro"
 date_taken = 2024-01-09T18:42:22+01:00
 
 [images]
+room = "images/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/room.jpeg"
+room2 = "images/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/room2.jpeg"
 bathroom = "images/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/bathroom.jpeg"
-bathroom2 = "images/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/bathroom2.jpeg"
-bathroom3 = "images/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/bathroom3.jpeg"
 +++
 
 The Spark by Hilton Wuppertal City Centre in Wuppertal offers a modern double room that fits squarely into the mid-range category. The room appears new with excellent conditions throughout. A modern hotel room with a comfortable bed, a flat-screen TV, and a free Wi-Fi connection. The room is clean and well-maintained, but it has no view and is limited in space. A small, modern bathroom with a toilet and shower. A standard hotel room with a modern design, new age, basic luxury, clean, featuring a TV, desk, and chair, with small and noisy drawbacks.

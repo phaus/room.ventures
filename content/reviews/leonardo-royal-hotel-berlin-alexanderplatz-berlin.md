@@ -23,9 +23,9 @@ model = "iPhone XS"
 date_taken = 2019-06-05T13:00:50+01:00
 
 [images]
+room = "images/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/room.jpg"
+room2 = "images/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/room2.jpg"
 bathroom = "images/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/bathroom.jpg"
-bathroom2 = "images/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/bathroom2.jpg"
-bathroom3 = "images/reviews/leonardo-royal-hotel-berlin-alexanderplatz-berlin/bathroom3.jpg"
 +++
 
 The Leonardo Royal Hotel Berlin Alexanderplatz in Berlin offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern, clean, and comfortable hotel room with a flat screen TV, free Wi-Fi, air conditioning, and a complimentary breakfast. However, it has no view and no free parking. A modern, clean, and basic bathroom with a shower, toilet, and sink. A modern hotel room with a bathroom, TV, and air conditioning. It has a new age and is clean. However, it has no view and no internet.

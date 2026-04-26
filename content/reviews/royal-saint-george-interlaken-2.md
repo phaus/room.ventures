@@ -23,7 +23,7 @@ model = "iPhone 7"
 date_taken = 2017-12-06T11:36:08+01:00
 
 [images]
-bathroom = "images/reviews/royal-saint-george-interlaken-2/bathroom.jpg"
+room = "images/reviews/royal-saint-george-interlaken-2/room.jpg"
 +++
 
 The Royal Saint George in Interlaken offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern and clean bedroom with all the necessary features and no major drawbacks.

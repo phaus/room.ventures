@@ -23,8 +23,8 @@ model = "iPhone 7"
 date_taken = 2018-06-24T22:41:36+01:00
 
 [images]
-bathroom = "images/reviews/hotel-berlin-treptow-berlin/bathroom.jpg"
-bathroom2 = "images/reviews/hotel-berlin-treptow-berlin/bathroom2.jpg"
+room = "images/reviews/hotel-berlin-treptow-berlin/room.jpg"
+room2 = "images/reviews/hotel-berlin-treptow-berlin/room2.jpg"
 +++
 
 The Hotel Berlin Treptow in Berlin offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A hotel room with all the necessary features and a clean and modern design. A modern studio apartment with a new design, perfect for a short stay.

@@ -23,7 +23,7 @@ model = "iPhone 14 Pro"
 date_taken = 2024-10-23T17:44:34+01:00
 
 [images]
-bathroom = "images/reviews/boutique-hotel-canel-wuerzburg/bathroom.jpeg"
+room = "images/reviews/boutique-hotel-canel-wuerzburg/room.jpeg"
 +++
 
 The Boutique Hotel CANEL in Würzburg offers a modern double room that fits squarely into the mid-range category. The room appears new with clean conditions throughout. A standard bathroom
