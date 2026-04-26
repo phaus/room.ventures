@@ -28,14 +28,14 @@
     "url": "/reviews/hotel-hamburg/"
   },
   {
-    "title": "Holiday Inn Express Düsseldorf Nord (2nd Visit)",
+    "title": "Holiday Inn Express D\u00fcsseldorf Nord (2nd Visit)",
     "lat": 51.2515,
     "lng": 6.7952,
     "rating": 3,
     "url": "/reviews/holiday-inn-express-duesseldorf-nord-2/"
   },
   {
-    "title": "AMANO Hotel Düsseldorf Mitte",
+    "title": "AMANO Hotel D\u00fcsseldorf Mitte",
     "lat": 51.2189,
     "lng": 6.7848,
     "rating": 3,
@@ -56,7 +56,7 @@
     "url": "/reviews/white-tower-muenchen/"
   },
   {
-    "title": "Hotel Advantage Nürnberg",
+    "title": "Hotel Advantage N\u00fcrnberg",
     "lat": 49.4421,
     "lng": 11.088,
     "rating": 3,
@@ -210,7 +210,7 @@
     "url": "/reviews/chalet-belmont-flims/"
   },
   {
-    "title": "Labranda Riviera Marina Mogán",
+    "title": "Labranda Riviera Marina Mog\u00e1n",
     "lat": 27.7987,
     "lng": -15.733,
     "rating": 3,
@@ -259,21 +259,14 @@
     "url": "/reviews/bonn-marriott-world-conference-hotel-bonn/"
   },
   {
-    "title": "Boutique Hotel CANEL Würzburg",
+    "title": "Boutique Hotel CANEL W\u00fcrzburg",
     "lat": 49.7983083333333,
     "lng": 9.92556388888889,
     "rating": 4,
     "url": "/reviews/boutique-hotel-canel-wuerzburg/"
   },
   {
-    "title": "Chalet Belmont Flims (2nd Visit)",
-    "lat": 46.82612638888885,
-    "lng": 9.284868055555556,
-    "rating": 4,
-    "url": "/reviews/chalet-belmont-flims-2/"
-  },
-  {
-    "title": "Clayton Hotel Düsseldorf Duesseldorf",
+    "title": "Clayton Hotel D\u00fcsseldorf Duesseldorf",
     "lat": 51.2227777777778,
     "lng": 6.788827777777775,
     "rating": 4,
@@ -308,21 +301,21 @@
     "url": "/reviews/dom-hotel-limburg-an-der-lahn/"
   },
   {
-    "title": "Gerbermühle Frankfurt am Main",
+    "title": "Gerberm\u00fchle Frankfurt am Main",
     "lat": 50.1059333333333,
     "lng": 8.72091388888889,
     "rating": 4,
     "url": "/reviews/gerbermuehle-frankfurt-am-main/"
   },
   {
-    "title": "H2 Hotel München Messe Munich (2nd Visit)",
+    "title": "H2 Hotel M\u00fcnchen Messe Munich (2nd Visit)",
     "lat": 48.137325,
     "lng": 11.6897194444444,
     "rating": 4,
     "url": "/reviews/h2-hotel-muenchen-messe-munich-2/"
   },
   {
-    "title": "H2 Hotel München Messe Munich",
+    "title": "H2 Hotel M\u00fcnchen Messe Munich",
     "lat": 48.136891666666656,
     "lng": 11.689325,
     "rating": 4,
@@ -336,7 +329,7 @@
     "url": "/reviews/heathrow-lodge-london/"
   },
   {
-    "title": "Holiday Inn Express Düsseldorf Nord Duesseldorf",
+    "title": "Holiday Inn Express D\u00fcsseldorf Nord Duesseldorf",
     "lat": 51.251588888888904,
     "lng": 6.795402777777779,
     "rating": 4,
@@ -378,13 +371,6 @@
     "url": "/reviews/hotel-budapester-hof-hamburg/"
   },
   {
-    "title": "Menzeh Zalagh Fes (2nd Visit)",
-    "lat": 34.04145694444445,
-    "lng": -4.99445138888889,
-    "rating": 4,
-    "url": "/reviews/hotel-fez-2/"
-  },
-  {
     "title": "Hotel Gastwerk Hamburg",
     "lat": 53.5624888888889,
     "lng": 9.918859722222225,
@@ -392,18 +378,11 @@
     "url": "/reviews/hotel-gastwerk-hamburg/"
   },
   {
-    "title": "Hotel Groß Bergkirchen",
+    "title": "Hotel Gro\u00df Bergkirchen",
     "lat": 48.2544513888889,
     "lng": 11.36396388888885,
     "rating": 4,
     "url": "/reviews/hotel-gross-bergkirchen/"
-  },
-  {
-    "title": "Hotel Gspan Arosa (2nd Visit)",
-    "lat": 46.7756305555556,
-    "lng": 9.65632222222222,
-    "rating": 4,
-    "url": "/reviews/hotel-gspan-arosa-2/"
   },
   {
     "title": "Hotel Hafen Hamburg Hamburg",
@@ -427,7 +406,7 @@
     "url": "/reviews/hotel-les-almohades-casablanca/"
   },
   {
-    "title": "Hotel Meliã Duesseldorf",
+    "title": "Hotel Meli\u00e3 Duesseldorf",
     "lat": 51.2330194444444,
     "lng": 6.77865277777778,
     "rating": 4,
@@ -455,25 +434,11 @@
     "url": "/reviews/hotel-prens-berlin/"
   },
   {
-    "title": "Hotel des Oudaias Rabat (2nd Visit)",
-    "lat": 34.0329388888889,
-    "lng": -6.83923611111111,
-    "rating": 3,
-    "url": "/reviews/hotel-rabat-2/"
-  },
-  {
     "title": "Hotel Radisson Blu Cologne",
     "lat": 50.94352083333335,
     "lng": 6.985365277777775,
     "rating": 4,
     "url": "/reviews/hotel-radisson-blu-cologne/"
-  },
-  {
-    "title": "Hotel Schweizerhof Morosani Davos (2nd Visit)",
-    "lat": 46.7953513888889,
-    "lng": 9.82169722222222,
-    "rating": 3,
-    "url": "/reviews/hotel-schweizerhof-morosani-davos-2/"
   },
   {
     "title": "Holiday Inn Express Wuppertal (2nd Visit)",
@@ -504,14 +469,7 @@
     "url": "/reviews/hyatt-regency-cologne-cologne/"
   },
   {
-    "title": "Ibis Geneva (2nd Visit)",
-    "lat": 46.2071277777778,
-    "lng": 6.13861111111111,
-    "rating": 4,
-    "url": "/reviews/ibis-geneva-2/"
-  },
-  {
-    "title": "Ibis Köln Centrum Cologne",
+    "title": "Ibis K\u00f6ln Centrum Cologne",
     "lat": 50.9299458333333,
     "lng": 6.944841666666671,
     "rating": 4,
@@ -567,7 +525,7 @@
     "url": "/reviews/maritim-hotel-am-schlossgarten-fulda-fulda/"
   },
   {
-    "title": "Mercure Hotel München Neuperlach Süd Munich",
+    "title": "Mercure Hotel M\u00fcnchen Neuperlach S\u00fcd Munich",
     "lat": 48.09179629629627,
     "lng": 11.643700925925934,
     "rating": 4,
@@ -581,7 +539,7 @@
     "url": "/reviews/miramar-essaouira/"
   },
   {
-    "title": "Mövenpick Hamburg",
+    "title": "M\u00f6venpick Hamburg",
     "lat": 53.5647125,
     "lng": 9.97057638888889,
     "rating": 4,
@@ -630,13 +588,6 @@
     "url": "/reviews/radisson-blu-scandinavia-hotel-duesseldorf/"
   },
   {
-    "title": "Royal Saint George Interlaken (2nd Visit)",
-    "lat": 46.6887555555556,
-    "lng": 7.86268333333333,
-    "rating": 4,
-    "url": "/reviews/royal-saint-george-interlaken-2/"
-  },
-  {
     "title": "Seminar + Freizeithotel Grosse Ledder Wermelskirchen",
     "lat": 51.0992277777778,
     "lng": 7.22171111111111,
@@ -656,13 +607,6 @@
     "lng": -15.733025,
     "rating": 4,
     "url": "/reviews/suite-monte-golf-mogan/"
-  },
-  {
-    "title": "Tschuggen Grand Hotel Arosa (2nd Visit)",
-    "lat": 46.7770722222222,
-    "lng": 9.67042777777778,
-    "rating": 4,
-    "url": "/reviews/tschuggen-grand-hotel-arosa-2/"
   },
   {
     "title": "Vier Jahreszeiten Berlin",
