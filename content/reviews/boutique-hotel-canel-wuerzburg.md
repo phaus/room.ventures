@@ -24,6 +24,8 @@ date_taken = 2024-10-23T17:44:34+01:00
 
 [images]
 room = "images/reviews/boutique-hotel-canel-wuerzburg/room.jpeg"
+room2 = "images/reviews/boutique-hotel-canel-wuerzburg/room2.jpeg"
+bathroom = "images/reviews/boutique-hotel-canel-wuerzburg/bathroom.jpeg"
 +++
 
 The Boutique Hotel CANEL in Würzburg offers a modern double room that fits squarely into the mid-range category. The room appears new with clean conditions throughout. A standard bathroom

@@ -24,6 +24,7 @@ date_taken = 2023-10-26T15:10:17+01:00
 
 [images]
 room = "images/reviews/dom-hotel-limburg-an-der-lahn/room.jpeg"
+bathroom = "images/reviews/dom-hotel-limburg-an-der-lahn/bathroom.jpeg"
 +++
 
 The Dom Hotel in Limburg an der Lahn offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern hotel room with a flat-screen TV, free Wi-Fi, and air-conditioning. However, it has no view and is quite noisy.

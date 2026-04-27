@@ -24,6 +24,8 @@ date_taken = 2022-09-15T14:04:29+01:00
 
 [images]
 room = "images/reviews/bonn-marriott-world-conference-hotel-bonn/room.jpeg"
+bathroom = "images/reviews/bonn-marriott-world-conference-hotel-bonn/bathroom.jpeg"
+bathroom2 = "images/reviews/bonn-marriott-world-conference-hotel-bonn/bathroom2.jpeg"
 +++
 
 The Bonn Marriott World Conference Hotel in Bonn offers a modern double room that fits squarely into the upscale category. The room appears new with excellent conditions throughout. A modern and clean hotel room with a king bed, flat-screen TV, and free Wi-Fi. The room is new and has a high level of luxury. However, it has a limited view and limited space.

@@ -24,6 +24,8 @@ date_taken = 2023-04-26T15:10:48+01:00
 
 [images]
 room = "images/reviews/diehls-hotel-koblenz/room.jpeg"
+bathroom = "images/reviews/diehls-hotel-koblenz/bathroom.jpeg"
+bathroom2 = "images/reviews/diehls-hotel-koblenz/bathroom2.jpeg"
 +++
 
 The Diehls Hotel in Koblenz offers a modern suite that fits squarely into the upscale category. The room appears new with excellent conditions throughout. A upscale modern hotel room in Koblenz.
