@@ -210,11 +210,11 @@
     "url": "/reviews/chalet-belmont-flims/"
   },
   {
-    "title": "Labranda Riviera Marina Mog\u00e1n",
+    "title": "H10 Costa Mog\u00e1n",
     "lat": 27.7987,
     "lng": -15.733,
-    "rating": 3,
-    "url": "/reviews/labranda-riviera-marina-mogan/"
+    "rating": 4,
+    "url": "/reviews/h10-costa-mogan/"
   },
   {
     "title": "Hotel Stafstedt",
@@ -601,13 +601,7 @@
     "rating": 4,
     "url": "/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/"
   },
-  {
-    "title": "Suite Monte Golf Mogan",
-    "lat": 27.7986472222222,
-    "lng": -15.733025,
-    "rating": 4,
-    "url": "/reviews/suite-monte-golf-mogan/"
-  },
+
   {
     "title": "Vier Jahreszeiten Berlin",
     "lat": 52.498613888888855,
