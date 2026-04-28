@@ -17,6 +17,7 @@ style = "Modern"
 age = "Unknown"
 luxury = "Budget"
 rating = 3
+carpet_score = 2
 
 [camera]
 model = "iPhone 5"

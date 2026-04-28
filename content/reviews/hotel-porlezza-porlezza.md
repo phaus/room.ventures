@@ -17,6 +17,7 @@ style = "Modern"
 age = "Old"
 luxury = "Budget"
 rating = 4
+carpet_score = 2
 
 [camera]
 model = "iPhone 6"

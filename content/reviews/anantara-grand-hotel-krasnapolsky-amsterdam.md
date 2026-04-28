@@ -17,6 +17,7 @@ style = "Modern"
 age = "Newly renovated"
 luxury = "Luxury"
 rating = 4
+carpet_score = 5
 
 [camera]
 model = "iPhone XS"

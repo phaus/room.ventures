@@ -17,6 +17,7 @@ style = "Generic"
 age = "Showing wear"
 luxury = "Economy"
 rating = 3
+carpet_score = 1
 
 [camera]
 model = "iPhone 16 Pro"

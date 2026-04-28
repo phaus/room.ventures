@@ -116,6 +116,12 @@
     <div class="meta-value">{{ . }}</div>
   </div>
   {{ end }}
+  {{ with .Params.room.carpet_score }}
+  <div class="meta-item">
+    <div class="meta-label">RG-Carpet-Score</div>
+    <div class="meta-value">{{ . }}/5</div>
+  </div>
+  {{ end }}
 </div>
 
 <div class="review-body">

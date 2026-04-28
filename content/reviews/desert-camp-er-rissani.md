@@ -17,6 +17,7 @@ style = "Rustic"
 age = "N/A"
 luxury = "Budget"
 rating = 2
+carpet_score = 1
 
 [camera]
 model = "iPhone 7"

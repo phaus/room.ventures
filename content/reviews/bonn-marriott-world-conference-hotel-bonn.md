@@ -17,6 +17,7 @@ style = "Modern"
 age = "New"
 luxury = "Upscale"
 rating = 4
+carpet_score = 4
 
 [camera]
 model = "iPhone 12 Pro"

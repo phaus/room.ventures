@@ -18,6 +18,7 @@ style = "Dated"
 age = "Worn"
 luxury = "Budget"
 rating = 4
+carpet_score = 1
 
 [camera]
 model = "iPad"

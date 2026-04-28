@@ -17,6 +17,7 @@ style = "Modern"
 age = "Well-maintained"
 luxury = "Mid-range"
 rating = 4
+carpet_score = 3
 
 [camera]
 model = "iPhone 14 Pro"

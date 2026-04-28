@@ -32,6 +32,7 @@
         <span class="tag">{{ .Params.room.style }}</span>
         <span class="tag">{{ .Params.room.luxury }}</span>
         <span class="tag">{{ .Params.room.type }}</span>
+        {{ with .Params.room.carpet_score }}<span class="tag">RG-Carpet: {{ . }}/5</span>{{ end }}
       </div>
     </div>
   </a>

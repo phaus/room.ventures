@@ -17,6 +17,7 @@ style = "Modern"
 age = "Well-maintained"
 luxury = "Luxury"
 rating = 4
+carpet_score = 5
 
 [camera]
 model = "iPhone 7"
