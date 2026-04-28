@@ -73,8 +73,8 @@
     "title": "Hotel St. Annen Hamburg",
     "lat": 53.554036,
     "lng": 9.963464,
-    "rating": 2,
-    "url": "/reviews/hotel-st-pauli-hamburg/"
+    "rating": 4,
+    "url": "/reviews/hotel-st-annen-hamburg/"
   },
   {
     "title": "Radisson Blu Hamburg",
@@ -115,8 +115,8 @@
     "title": "Hotel St. Annen Hamburg (2nd Visit)",
     "lat": 53.554036,
     "lng": 9.963464,
-    "rating": 2,
-    "url": "/reviews/hotel-st-pauli-hamburg-2/"
+    "rating": 4,
+    "url": "/reviews/hotel-st-annen-hamburg-2/"
   },
   {
     "title": "Empire Riverside Hotel Hamburg",
@@ -336,19 +336,13 @@
     "url": "/reviews/holiday-inn-express-duesseldorf-nord/"
   },
   {
-    "title": "Hotel 66 Hamburg (2nd Visit)",
+    "title": "Hotel St. Annen Hamburg (3rd Visit)",
     "lat": 53.5538305555556,
     "lng": 9.962455555555554,
     "rating": 4,
-    "url": "/reviews/hotel-66-hamburg-2/"
+    "url": "/reviews/hotel-st-annen-hamburg-3/"
   },
-  {
-    "title": "Hotel 66 Hamburg",
-    "lat": 53.55389166666665,
-    "lng": 9.9634,
-    "rating": 4,
-    "url": "/reviews/hotel-66-hamburg/"
-  },
+
   {
     "title": "Hotel Berlin Treptow Berlin",
     "lat": 52.490969444444445,

@@ -69,6 +69,7 @@
 <p style="color:var(--text-muted); margin-bottom:0.5rem;">
   {{ .Params.hotel.city }}, {{ .Params.hotel.country }} &middot;
   {{ .Date.Format "January 2, 2006" }}
+  {{ with .Params.hotel.website }}&middot; <a href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
 </p>
 <div class="stars" style="margin-bottom:1.5rem;">
   {{ range seq 5 }}
