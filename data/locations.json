@@ -342,7 +342,6 @@
     "rating": 4,
     "url": "/reviews/hotel-st-annen-hamburg-3/"
   },
-
   {
     "title": "Hotel Berlin Treptow Berlin",
     "lat": 52.490969444444445,
@@ -595,7 +594,6 @@
     "rating": 4,
     "url": "/reviews/spark-by-hilton-wuppertal-city-centre-wuppertal/"
   },
-
   {
     "title": "Vier Jahreszeiten Berlin",
     "lat": 52.498613888888855,
@@ -609,5 +607,26 @@
     "lng": 6.980833333333333,
     "rating": 3,
     "url": "/reviews/waldhotel-heiligenhaus/"
+  },
+  {
+    "title": "Holiday Inn Dusseldorf City Toulouser Allee",
+    "lat": 51.2328,
+    "lng": 6.7962,
+    "rating": 3,
+    "url": "/reviews/holiday-inn-dusseldorf-city-duesseldorf/"
+  },
+  {
+    "title": "Premier Inn Tamworth Central",
+    "lat": 52.6292,
+    "lng": -1.7022,
+    "rating": 2,
+    "url": "/reviews/premier-inn-tamworth-central-tamworth/"
+  },
+  {
+    "title": "Travelodge Birmingham Airport",
+    "lat": 52.4469,
+    "lng": -1.7502,
+    "rating": 2,
+    "url": "/reviews/travelodge-birmingham-airport-solihull/"
   }
 ]
