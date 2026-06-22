@@ -17,7 +17,7 @@ type = "Single Room"
 style = "Dated"
 age = "Worn"
 luxury = "Budget"
-rating = 4
+rating = 2
 carpet_score = 1
 
 [camera]

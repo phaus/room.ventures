@@ -17,6 +17,7 @@ style = "Modern"
 age = "Well-maintained"
 luxury = "Budget"
 rating = 2
+carpet_score = 1
 
 [camera]
 model = "iPhone 16 Pro"
