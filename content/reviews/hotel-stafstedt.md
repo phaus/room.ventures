@@ -16,7 +16,7 @@ type = "Double Room"
 style = "Modern"
 age = "Well-maintained"
 luxury = "Upscale"
-rating = 3
+rating = 1
 carpet_score = 4
 
 [camera]

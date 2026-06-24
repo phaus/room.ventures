@@ -16,7 +16,7 @@ type = "Double Room"
 style = "Generic"
 age = "Showing wear"
 luxury = "Mid-range"
-rating = 3
+rating = 4
 carpet_score = 2
 
 [camera]
