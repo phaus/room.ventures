@@ -28,14 +28,14 @@
     "url": "/reviews/hotel-hamburg/"
   },
   {
-    "title": "Holiday Inn Express D\u00fcsseldorf Nord (2nd Visit)",
+    "title": "Holiday Inn Express Düsseldorf Nord (2nd Visit)",
     "lat": 51.2515,
     "lng": 6.7952,
     "rating": 3,
     "url": "/reviews/holiday-inn-express-duesseldorf-nord-2/"
   },
   {
-    "title": "AMANO Hotel D\u00fcsseldorf Mitte",
+    "title": "AMANO Hotel Düsseldorf Mitte",
     "lat": 51.2189,
     "lng": 6.7848,
     "rating": 3,
@@ -56,7 +56,7 @@
     "url": "/reviews/white-tower-muenchen/"
   },
   {
-    "title": "Hotel Advantage N\u00fcrnberg",
+    "title": "Hotel Advantage Nürnberg",
     "lat": 49.4421,
     "lng": 11.088,
     "rating": 3,
@@ -210,7 +210,7 @@
     "url": "/reviews/chalet-belmont-flims/"
   },
   {
-    "title": "H10 Costa Mog\u00e1n",
+    "title": "H10 Costa Mogán",
     "lat": 27.7987,
     "lng": -15.733,
     "rating": 4,
@@ -259,14 +259,14 @@
     "url": "/reviews/bonn-marriott-world-conference-hotel-bonn/"
   },
   {
-    "title": "Boutique Hotel CANEL W\u00fcrzburg",
+    "title": "Boutique Hotel CANEL Würzburg",
     "lat": 49.7983083333333,
     "lng": 9.92556388888889,
     "rating": 4,
     "url": "/reviews/boutique-hotel-canel-wuerzburg/"
   },
   {
-    "title": "Clayton Hotel D\u00fcsseldorf Duesseldorf",
+    "title": "Clayton Hotel Düsseldorf Duesseldorf",
     "lat": 51.2227777777778,
     "lng": 6.788827777777775,
     "rating": 4,
@@ -301,21 +301,21 @@
     "url": "/reviews/dom-hotel-limburg-an-der-lahn/"
   },
   {
-    "title": "Gerberm\u00fchle Frankfurt am Main",
+    "title": "Gerbermühle Frankfurt am Main",
     "lat": 50.1059333333333,
     "lng": 8.72091388888889,
     "rating": 4,
     "url": "/reviews/gerbermuehle-frankfurt-am-main/"
   },
   {
-    "title": "H2 Hotel M\u00fcnchen Messe Munich (2nd Visit)",
+    "title": "H2 Hotel München Messe Munich (2nd Visit)",
     "lat": 48.137325,
     "lng": 11.6897194444444,
     "rating": 4,
     "url": "/reviews/h2-hotel-muenchen-messe-munich-2/"
   },
   {
-    "title": "H2 Hotel M\u00fcnchen Messe Munich",
+    "title": "H2 Hotel München Messe Munich",
     "lat": 48.136891666666656,
     "lng": 11.689325,
     "rating": 4,
@@ -329,7 +329,7 @@
     "url": "/reviews/heathrow-lodge-london/"
   },
   {
-    "title": "Holiday Inn Express D\u00fcsseldorf Nord Duesseldorf",
+    "title": "Holiday Inn Express Düsseldorf Nord Duesseldorf",
     "lat": 51.251588888888904,
     "lng": 6.795402777777779,
     "rating": 4,
@@ -371,7 +371,7 @@
     "url": "/reviews/hotel-gastwerk-hamburg/"
   },
   {
-    "title": "Hotel Gro\u00df Bergkirchen",
+    "title": "Hotel Groß Bergkirchen",
     "lat": 48.2544513888889,
     "lng": 11.36396388888885,
     "rating": 4,
@@ -399,7 +399,7 @@
     "url": "/reviews/hotel-les-almohades-casablanca/"
   },
   {
-    "title": "Hotel Meli\u00e3 Duesseldorf",
+    "title": "Hotel Meliã Duesseldorf",
     "lat": 51.2330194444444,
     "lng": 6.77865277777778,
     "rating": 4,
@@ -462,7 +462,7 @@
     "url": "/reviews/hyatt-regency-cologne-cologne/"
   },
   {
-    "title": "Ibis K\u00f6ln Centrum Cologne",
+    "title": "Ibis Köln Centrum Cologne",
     "lat": 50.9299458333333,
     "lng": 6.944841666666671,
     "rating": 4,
@@ -518,7 +518,7 @@
     "url": "/reviews/maritim-hotel-am-schlossgarten-fulda-fulda/"
   },
   {
-    "title": "Mercure Hotel M\u00fcnchen Neuperlach S\u00fcd Munich",
+    "title": "Mercure Hotel München Neuperlach Süd Munich",
     "lat": 48.09179629629627,
     "lng": 11.643700925925934,
     "rating": 4,
@@ -532,7 +532,7 @@
     "url": "/reviews/miramar-essaouira/"
   },
   {
-    "title": "M\u00f6venpick Hamburg",
+    "title": "Mövenpick Hamburg",
     "lat": 53.5647125,
     "lng": 9.97057638888889,
     "rating": 4,
@@ -628,5 +628,12 @@
     "lng": -1.7502,
     "rating": 2,
     "url": "/reviews/travelodge-birmingham-airport-solihull/"
+  },
+  {
+    "title": "Holiday Inn Express Wuppertal (6th Visit)",
+    "lat": 51.2557,
+    "lng": 7.1471,
+    "rating": 3,
+    "url": "/reviews/hotel-wuppertal-6/"
   }
 ]
