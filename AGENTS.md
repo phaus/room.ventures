@@ -9,7 +9,7 @@ room.ventures is a static homepage for hotel room reviews, built with Hugo. Cont
 - **Hugo** - Static site generator
 - **Markdown** - Content authoring format (TOML front matter)
 - **ExifTool** - EXIF metadata extraction from photos
-- **Local AI vision model** - Image analysis (style, age, luxury level, rating)
+- **Local AI vision model** - `minicpm-v` via Ollama — image analysis (style, age, luxury level, rating). Note: `llama3.2-vision` no longer loads on Ollama >= 0.34 (mllama arch removed)
 - **Leaflet.js** - Interactive map on the homepage (OpenStreetMap tiles)
 - **OpenStreetMap embeds** - Interactive maps on review detail pages (iframe)
 - **Git LFS** - Large file storage for images
@@ -37,7 +37,7 @@ When photos are dumped into `photos/inbox/`, the agent should:
 2. **Extract EXIF data** using ExifTool: date, time, GPS coordinates (lat/lng), camera model, lens, focal length, exposure
 3. **Group photos** by similar timestamps (within a few minutes) to identify photos belonging to the same hotel room visit
 4. **Reverse-geocode and identify hotel** using the Nominatim API (OpenStreetMap). Search for hotels near the GPS coordinates using a tight bounding box (~100m). Use the closest OSM hotel name. If no hotel is found nearby, ask the user; if they don't remember, use a generic name based on location.
-5. **Analyze each photo** with a local AI vision model to assess:
+5. **Analyze each photo** with `minicpm-v` (Ollama) to assess:
    - Room style (modern, classic, boutique, rustic, etc.)
    - Estimated age/condition (new, well-maintained, dated, worn)
    - Luxury level (budget, mid-range, upscale, luxury)

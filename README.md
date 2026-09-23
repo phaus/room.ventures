@@ -11,7 +11,7 @@ room.ventures is a static site that showcases and reviews hotel rooms. Photos ar
 - **Static Site Generator:** Hugo
 - **Content Format:** Markdown with TOML front matter
 - **EXIF Extraction:** ExifTool
-- **Image Analysis:** llama3.2-vision via Ollama
+- **Image Analysis:** minicpm-v via Ollama
 - **Interactive Map:** Leaflet.js with OpenStreetMap tiles
 - **Map Tiles (Detail Pages):** Static OpenStreetMap tile images
 - **Image Storage:** Git LFS
@@ -32,7 +32,7 @@ The AI agent will automatically:
 2. **Extract EXIF** -- pull date, GPS coordinates, and camera info via ExifTool
 3. **Group** -- cluster photos by timestamp proximity into hotel room visits
 4. **Reverse-geocode** -- resolve GPS coordinates to hotel name, city, and country (prompts you if ambiguous)
-5. **Analyze** -- assess each photo with llama3.2-vision for style, condition, luxury level, and cleanliness
+5. **Analyze** -- assess each photo with minicpm-v for style, condition, luxury level, and cleanliness
 6. **Generate rating** -- produce a composite 1-5 star rating
 7. **Download map tile** -- fetch a static OpenStreetMap tile for the location
 8. **Create review page** -- generate a Hugo content page in `content/reviews/` with full metadata
@@ -45,7 +45,7 @@ The AI agent will automatically:
 Photos must be JPEG files with EXIF GPS coordinates embedded (most smartphone cameras do this by default). The agent needs:
 
 - [ExifTool](https://exiftool.org/) (installed automatically via Homebrew if missing)
-- [Ollama](https://ollama.com/) with `llama3.2-vision:11b` (pulled automatically if missing)
+- [Ollama](https://ollama.com/) with `minicpm-v` (pulled automatically if missing)
 
 ### After Processing
 
@@ -65,7 +65,7 @@ The GitHub Actions pipeline will automatically build the Docker image and deploy
 
 - [Hugo](https://gohugo.io/installation/) (extended edition recommended)
 - [ExifTool](https://exiftool.org/)
-- [Ollama](https://ollama.com/) with `llama3.2-vision:11b`
+- [Ollama](https://ollama.com/) with `minicpm-v`
 - [Git LFS](https://git-lfs.github.com/)
 - [Docker](https://www.docker.com/) (for containerized builds)
 
