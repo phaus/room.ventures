@@ -635,5 +635,12 @@
     "lng": 7.1471,
     "rating": 3,
     "url": "/reviews/hotel-wuppertal-6/"
+  },
+  {
+    "title": "Leonardo Boutique Hotel Düsseldorf",
+    "lat": 51.2209,
+    "lng": 6.7853,
+    "rating": 4,
+    "url": "/reviews/leonardo-boutique-hotel-duesseldorf/"
   }
 ]
