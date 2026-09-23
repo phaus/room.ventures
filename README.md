@@ -13,7 +13,7 @@ room.ventures is a static site that showcases and reviews hotel rooms. Photos ar
 - **EXIF Extraction:** ExifTool
 - **Image Analysis:** minicpm-v via Ollama
 - **Interactive Map:** Leaflet.js with OpenStreetMap tiles
-- **Map Tiles (Detail Pages):** Static OpenStreetMap tile images
+- **Map Embeds (Detail Pages):** OpenStreetMap iframe embeds
 - **Image Storage:** Git LFS
 - **Container:** Docker (Hugo build + nginx)
 - **CI/CD:** GitHub Actions (build to GHCR, deploy via SSH)
@@ -34,11 +34,10 @@ The AI agent will automatically:
 4. **Reverse-geocode** -- resolve GPS coordinates to hotel name, city, and country (prompts you if ambiguous)
 5. **Analyze** -- assess each photo with minicpm-v for style, condition, luxury level, and cleanliness
 6. **Generate rating** -- produce a composite 1-5 star rating
-7. **Download map tile** -- fetch a static OpenStreetMap tile for the location
-8. **Create review page** -- generate a Hugo content page in `content/reviews/` with full metadata
-9. **Update map data** -- add the location to `data/locations.json` for the homepage map
-10. **Move photos** -- copy processed images to `static/images/reviews/<slug>/`
-11. **Update manifest** -- add new SHA-256 hashes to `photos/processed_hashes.json`
+7. **Create review page** -- generate a Hugo content page in `content/reviews/` with full metadata
+8. **Update map data** -- add the location to `data/locations.json` for the homepage map
+9. **Move photos** -- copy processed images to `static/images/reviews/<slug>/`
+10. **Update manifest** -- add new SHA-256 hashes to `photos/processed_hashes.json`
 
 ### Requirements
 
@@ -108,8 +107,7 @@ room.ventures/
 │   └── reviews/               # Generated review pages (Markdown)
 ├── static/
 │   └── images/
-│       ├── reviews/           # Processed review photos
-│       └── maps/              # Static OpenStreetMap tile images
+│       └── reviews/           # Processed review photos
 ├── layouts/
 │   ├── _default/              # Base layout, homepage with map
 │   └── reviews/               # Review list and detail templates
