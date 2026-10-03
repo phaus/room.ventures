@@ -25,7 +25,7 @@ date_taken = 2024-09-02T19:49:16+01:00
 
 [images]
 room = "images/reviews/hotel-wuppertal-3/room.jpeg"
-room2 = "images/reviews/hotel-wuppertal-3/room2.jpeg"
+bathroom = "images/reviews/hotel-wuppertal-3/bathroom.jpeg"
 +++
 
 The Holiday Inn Express in Wuppertal offers a modern double room that fits squarely into the upscale category. The room appears newly renovated with very clean conditions throughout. Cozy and comfortable room with a modern design. The room is equipped with a TV, air conditioning, and free Wi-Fi. The room is clean and clean, and the room is suitable for a modern and modern. The room is located in a new and modern building. A modern, newly built bathroom with a high level of luxury and excellent cleanliness.

@@ -24,8 +24,8 @@ model = "iPhone 14 Pro"
 date_taken = 2024-11-22T15:52:21+01:00
 
 [images]
-bathroom = "images/reviews/ibis-koeln-centrum-cologne/bathroom.jpeg"
 room = "images/reviews/ibis-koeln-centrum-cologne/room.jpeg"
+bathroom = "images/reviews/ibis-koeln-centrum-cologne/bathroom.jpeg"
 +++
 
 The Ibis Köln Centrum in Cologne offers a modern hotel room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern hotel room with a flat-screen TV, free Wi-Fi, and air-conditioning. The room is clean and well-maintained, but has a limited view and no view of the city. The room is also equipped with a flat-screw TV, free Wi-Fi, and air-conditioning. A hotel room with a bathroom and a bed.

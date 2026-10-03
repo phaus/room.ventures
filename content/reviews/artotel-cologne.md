@@ -24,8 +24,8 @@ model = "iPhone 16 Pro"
 date_taken = 2026-04-22T18:10:36+02:00
 
 [images]
-room = "images/reviews/artotel-cologne/room.jpeg"
-room2 = "images/reviews/artotel-cologne/room2.jpeg"
+bathroom = "images/reviews/artotel-cologne/bathroom.jpeg"
+bathroom2 = "images/reviews/artotel-cologne/bathroom2.jpeg"
 +++
 
 A generic hotel room at art'otel cologne in Köln's Altstadt-Süd. The room is functional but showing signs of wear -- dated furniture, small room size, and unremarkable decor. The bed appears comfortable and the bathroom is modern, but overall the room feels like a standard mid-range chain hotel rather than anything special.

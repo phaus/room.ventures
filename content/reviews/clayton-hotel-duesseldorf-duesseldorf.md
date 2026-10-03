@@ -25,7 +25,7 @@ date_taken = 2019-02-13T18:30:59+01:00
 
 [images]
 room = "images/reviews/clayton-hotel-duesseldorf-duesseldorf/room.jpg"
-room2 = "images/reviews/clayton-hotel-duesseldorf-duesseldorf/room2.jpg"
+bathroom = "images/reviews/clayton-hotel-duesseldorf-duesseldorf/bathroom.jpg"
 +++
 
 The Clayton Hotel Düsseldorf in Duesseldorf offers a modern double room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern and clean bathroom with a new and high-luxury design. This modern hotel room is equipped with a king-size bed, a flat-screen TV, free Wi-Fi, air-conditioning, and free internet. However, it has no view and no com for us for you.

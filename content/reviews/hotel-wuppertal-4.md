@@ -25,8 +25,8 @@ date_taken = 2025-06-10T20:29:39+02:00
 
 [images]
 room = "images/reviews/hotel-wuppertal-4/room.jpeg"
-room2 = "images/reviews/hotel-wuppertal-4/room2.jpeg"
-room3 = "images/reviews/hotel-wuppertal-4/room3.jpeg"
+bathroom = "images/reviews/hotel-wuppertal-4/bathroom.jpeg"
+bathroom2 = "images/reviews/hotel-wuppertal-4/bathroom2.jpeg"
 +++
 
 A return visit to the hotel in Wuppertal's Elberfeld district near Schloßbleiche. Similar story as the first visit -- the bed is comfortable and the TV has been upgraded, but the worn carpet needs replacing and the room feels cramped. Dated furniture and a small window continue to be issues. Good lighting and some in-room amenities are the only real positives.

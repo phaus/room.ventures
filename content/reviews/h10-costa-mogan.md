@@ -28,8 +28,8 @@ room = "images/reviews/h10-costa-mogan/room.jpeg"
 room2 = "images/reviews/h10-costa-mogan/room2.jpeg"
 room3 = "images/reviews/h10-costa-mogan/room3.jpeg"
 room4 = "images/reviews/h10-costa-mogan/room4.jpeg"
+room5 = "images/reviews/h10-costa-mogan/room5.jpeg"
 bathroom = "images/reviews/h10-costa-mogan/bathroom.jpeg"
-bathroom2 = "images/reviews/h10-costa-mogan/bathroom2.jpeg"
 +++
 
 A room at the H10 Costa Mogán in Gran Canaria. A modern beachfront hotel with ocean views from the balcony. The room features a comfortable bed, seating area with sofa and coffee tables, and a large TV. The open-plan bathroom has green tiles, a glass shower, and black fixtures -- stylish but lacking privacy from the bedroom. Clean and well-maintained, though the styling feels generic for a resort hotel. The ocean view is the main selling point.

@@ -25,7 +25,7 @@ date_taken = 2025-09-02T23:14:32+02:00
 
 [images]
 room = "images/reviews/hotel-wuppertal-5/room.jpeg"
-room2 = "images/reviews/hotel-wuppertal-5/room2.jpeg"
+bathroom = "images/reviews/hotel-wuppertal-5/bathroom.jpeg"
 +++
 
 An economy hotel room in Wuppertal's Elberfeld district near Schloßbleiche. The bed is comfortable and the TV is new, but that's about where the positives end. Outdated furniture, small windows, and poor lighting make the room feel dark and tired. The carpet and general decor suggest this property hasn't been renovated in a while.

@@ -24,8 +24,8 @@ model = "iPhone XS"
 date_taken = 2020-09-28T16:37:37+01:00
 
 [images]
-bathroom = "images/reviews/landhaus-schieder-schieder-schwalenberg/bathroom.jpg"
 room = "images/reviews/landhaus-schieder-schieder-schwalenberg/room.jpg"
+room2 = "images/reviews/landhaus-schieder-schieder-schwalenberg/room2.jpg"
 +++
 
 The Landhaus Schieder in Schieder-Schwalenberg offers a modern hotel room that fits squarely into the upscale category. The room appears new with very clean conditions throughout. A modern, clean, and comfortable hotel room with a TV, free Wi-Fi, and a minibar. However, it has no view and is a bit noisy. A modern hotel room with a TV, air conditioning, and free Wi-Fi. The room is clean and has a modern design. However, it has no view and is noisy.

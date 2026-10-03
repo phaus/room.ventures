@@ -79,9 +79,9 @@
 
 {{ with .Params.images }}
 <div class="review-hero">
-  <img src="/{{ .room }}" alt="Room">
-  {{ with .room2 }}<img src="/{{ . }}" alt="Room">{{ end }}
-  {{ with .bathroom }}<img src="/{{ . }}" alt="Bathroom">{{ end }}
+  {{ $imgs := . }}
+  {{ range $k := slice "room" "room2" "room3" "room4" "room5" "room6" }}{{ with index $imgs $k }}<img src="/{{ . }}" alt="Room">{{ end }}{{ end }}
+  {{ range $k := slice "bathroom" "bathroom2" "bathroom3" "bathroom4" }}{{ with index $imgs $k }}<img src="/{{ . }}" alt="Bathroom">{{ end }}{{ end }}
 </div>
 {{ end }}
 
