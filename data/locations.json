@@ -642,5 +642,12 @@
     "lng": 6.7853,
     "rating": 4,
     "url": "/reviews/leonardo-boutique-hotel-duesseldorf/"
+  },
+  {
+    "title": "Ibis Würzburg",
+    "lat": 49.8024,
+    "lng": 9.9212,
+    "rating": 3,
+    "url": "/reviews/ibis-wuerzburg/"
   }
 ]
