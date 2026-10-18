@@ -649,5 +649,12 @@
     "lng": 9.9212,
     "rating": 3,
     "url": "/reviews/ibis-wuerzburg/"
+  },
+  {
+    "title": "Steigenberger Hotel Köln",
+    "lat": 50.9359,
+    "lng": 6.9378,
+    "rating": 4,
+    "url": "/reviews/steigenberger-hotel-koeln/"
   }
 ]
