@@ -50,9 +50,17 @@ When photos are dumped into `photos/inbox/`, the agent should:
    - If still over 1MB, resize to 1200px and quality 60: `magick <file> -auto-orient -resize 1200x1200\> -quality 60 -strip <file>`
    - Target: all images under 1MB, ideally 200-500KB
 8. **Generate a Hugo content page** in `content/reviews/` with all metadata in front matter
-9. **Update `data/locations.json`** with the new location entry (lat, lng, rating, title, URL) for the homepage map
-10. **Move processed photos** to `static/images/reviews/<slug>/`
-11. **Commit** all generated files to Git (images via Git LFS)
+ 9. **Update `data/locations.json`** with the new location entry (lat, lng, rating, title, URL) for the homepage map
+ 10. **Check the stats page**: if the review's `hotel.country` is not in `data/continents.json`, add its country-to-continent mapping there (otherwise the review counts as "Unknown" continent on `/stats/`)
+ 11. **Move processed photos** to `static/images/reviews/<slug>/`
+ 12. **Commit** all generated files to Git (images via Git LFS)
+
+### Stats Page
+
+- `/stats/` (`content/stats.md` + `layouts/stats/single.html`) shows reviews per year, countries and continents, average/best/worst rating, and reviews per star
+- All aggregates are computed by Hugo at build time from review front matter — there is no stats data file to update manually
+- The only manual step after a new review: ensure `hotel.country` has an entry in `data/continents.json` (country → continent mapping)
+- Keep `room.rating` (1-5), `date`, and `hotel.country` set in every review's front matter — the stats page depends on them
 
 ### Repeat Visits
 

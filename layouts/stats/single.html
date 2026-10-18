@@ -1,0 +1,216 @@
+{{ define "head" }}
+<style>
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+  }
+  .stat-card .value { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
+  .stat-card .value .star { font-size: 1.1rem; vertical-align: middle; }
+  .stat-card .label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+  .stats-section { margin-bottom: 2.5rem; }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 90px 1fr 3.5rem;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.45rem;
+  }
+  .bar-label { font-size: 0.85rem; color: var(--text-muted); white-space: nowrap; }
+  .bar-track {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    height: 12px;
+    overflow: hidden;
+  }
+  .bar-fill { background: var(--accent-dim); height: 100%; border-radius: 100px; }
+  .bar-count { font-size: 0.8rem; color: var(--text-muted); text-align: right; }
+  .chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .chip {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 0.25em 0.8em;
+    font-size: 0.8rem;
+    color: var(--text);
+  }
+  .chip .n { color: var(--text-muted); margin-left: 0.35em; }
+  .best-worst { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 700px) { .best-worst { grid-template-columns: 1fr; } }
+  .bw-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+  }
+  .bw-card ul { list-style: none; margin-top: 0.5rem; }
+  .bw-card li { padding: 0.35rem 0; border-top: 1px solid var(--border); font-size: 0.9rem; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+{{ $reviews := where .Site.RegularPages "Section" "reviews" }}
+{{ $total := len $reviews }}
+{{ $continents := .Site.Data.continents }}
+{{ $starLabels := dict "1" "★" "2" "★★" "3" "★★★" "4" "★★★★" "5" "★★★★★" }}
+
+{{ $sum := 0 }}
+{{ $years := dict }}
+{{ $stars := dict }}
+{{ $countries := dict }}
+{{ $minRating := 5 }}
+{{ $maxRating := 1 }}
+{{ $countryList := slice }}
+{{ $yearList := slice }}
+{{ range $reviews }}
+  {{ $r := int .Params.room.rating }}
+  {{ $sum = add $sum $r }}
+  {{ if lt $r $minRating }}{{ $minRating = $r }}{{ end }}
+  {{ if gt $r $maxRating }}{{ $maxRating = $r }}{{ end }}
+  {{ $y := printf "%d" .Date.Year }}
+  {{ $yn := int (default 0 (index $years $y)) }}
+  {{ $years = merge $years (dict $y (add $yn 1)) }}
+  {{ if not (in $yearList $y) }}{{ $yearList = $yearList | append $y }}{{ end }}
+  {{ $s := printf "%d" $r }}
+  {{ $sn := int (default 0 (index $stars $s)) }}
+  {{ $stars = merge $stars (dict $s (add $sn 1)) }}
+  {{ $c := .Params.hotel.country }}
+  {{ $cn := int (default 0 (index $countries $c)) }}
+  {{ $countries = merge $countries (dict $c (add $cn 1)) }}
+  {{ if not (in $countryList $c) }}{{ $countryList = $countryList | append $c }}{{ end }}
+{{ end }}
+{{ $avg := div $sum (mul $total 1.0) }}
+
+{{ $continentCounts := dict }}
+{{ $continentList := slice }}
+{{ range $country := $countryList }}
+  {{ $cont := default "Unknown" (index $continents $country) }}
+  {{ $rv := int (index $countries $country) }}
+  {{ $cn := int (default 0 (index $continentCounts $cont)) }}
+  {{ $continentCounts = merge $continentCounts (dict $cont (add $cn $rv)) }}
+  {{ if not (in $continentList $cont) }}{{ $continentList = $continentList | append $cont }}{{ end }}
+{{ end }}
+
+{{ $yearMax := 0 }}
+{{ range $yearList }}{{ if gt (int .) $yearMax }}{{ $yearMax = int . }}{{ end }}{{ end }}
+{{ $yearMin := $yearMax }}
+{{ range $yearList }}{{ if lt (int .) $yearMin }}{{ $yearMin = int . }}{{ end }}{{ end }}
+{{ $maxYearCount := 1 }}
+{{ range $k, $v := $years }}
+  {{ if gt $v $maxYearCount }}{{ $maxYearCount = $v }}{{ end }}
+{{ end }}
+{{ $countryCount := len $countryList }}
+{{ $continentCount := len $continentList }}
+
+<h1>Statistics</h1>
+<p style="color: var(--text-muted); margin: 0.5rem 0 2rem;">Aggregates computed from all {{ $total }} reviews at build time.</p>
+
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="value">{{ $total }}</div>
+    <div class="label">Reviews</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">{{ $countryCount }}</div>
+    <div class="label">Countries</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">{{ $continentCount }}</div>
+    <div class="label">Continents</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">{{ printf "%.1f" $avg }}</div>
+    <div class="label">Avg Rating</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">{{ $maxRating }}<span class="star filled">★</span></div>
+    <div class="label">Best Rating</div>
+  </div>
+  <div class="stat-card">
+    <div class="value">{{ $minRating }}<span class="star filled">★</span></div>
+    <div class="label">Worst Rating</div>
+  </div>
+</div>
+
+<div class="stats-section">
+  <div class="section-title">Reviews per Year</div>
+  {{ range $i := seq 0 (sub $yearMax $yearMin) }}
+    {{ $y := printf "%d" (sub $yearMax $i) }}
+    {{ with index $years $y }}
+    <div class="bar-row">
+      <div class="bar-label">{{ $y }}</div>
+      <div class="bar-track"><div class="bar-fill" style="width: {{ div (mul . 100) $maxYearCount }}%"></div></div>
+      <div class="bar-count">{{ . }}</div>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+
+<div class="stats-section">
+  <div class="section-title">Reviews per Star</div>
+  {{ range $s := (slice 5 4 3 2 1) }}
+    {{ $key := printf "%d" $s }}
+    {{ $n := int (default 0 (index $stars $key)) }}
+    <div class="bar-row">
+      <div class="bar-label">{{ index $starLabels $key }}</div>
+      <div class="bar-track"><div class="bar-fill" style="width: {{ div (mul $n 100) $total }}%"></div></div>
+      <div class="bar-count">{{ $n }}</div>
+    </div>
+  {{ end }}
+</div>
+
+<div class="stats-section">
+  <div class="section-title">Continents</div>
+  <div class="chip-row">
+    {{ range $cont, $n := $continentCounts }}
+      <span class="chip">{{ $cont }}<span class="n">{{ $n }}</span></span>
+    {{ end }}
+  </div>
+</div>
+
+<div class="stats-section">
+  <div class="section-title">Countries</div>
+  <div class="chip-row">
+    {{ range $country, $n := $countries }}
+      <span class="chip">{{ $country }}<span class="n">{{ $n }}</span></span>
+    {{ end }}
+  </div>
+</div>
+
+<div class="stats-section">
+  <div class="section-title">Best and Worst</div>
+  <div class="best-worst">
+    <div class="bw-card">
+      <div class="section-title" style="margin-bottom: 0;">Best · {{ $maxRating }}★</div>
+      <ul>
+        {{ range (sort (where $reviews "Params.room.rating" $maxRating) "Title") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="bw-card">
+      <div class="section-title" style="margin-bottom: 0;">Worst · {{ $minRating }}★</div>
+      <ul>
+        {{ range (sort (where $reviews "Params.room.rating" $minRating) "Title") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+{{ end }}
