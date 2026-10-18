@@ -656,5 +656,12 @@
     "lng": 6.9378,
     "rating": 4,
     "url": "/reviews/steigenberger-hotel-koeln/"
+  },
+  {
+    "title": "easyHotel Amsterdam",
+    "lat": 52.3522,
+    "lng": 4.8915,
+    "rating": 3,
+    "url": "/reviews/easyhotel-amsterdam/"
   }
 ]
