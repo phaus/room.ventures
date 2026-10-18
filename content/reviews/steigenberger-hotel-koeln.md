@@ -30,17 +30,17 @@ bathroom = "images/reviews/steigenberger-hotel-koeln/bathroom.jpeg"
 bathroom2 = "images/reviews/steigenberger-hotel-koeln/bathroom2.jpeg"
 +++
 
-Very clean and comfortably spacious room at the Steigenberger on Habsburgerring: large bed, air conditioning, TV, and — the standout — a proper kitchen that turns a standard hotel night into something closer to an aparthotel stay. Neutral, contemporary decor throughout, nothing worn or dated in the photos.
+Clean and sufficiently spacious room at the Steigenberger on Habsburgerring, furnished to a high standard: large bed, air conditioning, TV — plus a fine kitchen, an unusual extra for a hotel room here.
 
-The room faces the street, and that is the one real trade-off. With the window open it is loud; closed it is quiet, so the A/C has to earn its keep. Walls are the weaker link — neighbours in the adjacent rooms were clearly audible. Pick a courtyard room if you can, or just plan on windows shut.
+The room is on the street side: loud with the window open, quiet with it closed. The walls are the weaker point — room neighbours were clearly audible.
 
-Everything else rounds up nicely: a varied, extensive breakfast buffet and friendly staff throughout. Solid upscale stay with no nasty surprises — the noise profile keeps it from a 5.
+The hotel side of the stay is strong: a varied, extensive buffet and friendly staff throughout. Solid upscale stay — the noise profile keeps it at a 4.
 
 ## AI Analysis
 
 - **Style:** Modern, contemporary
-- **Condition:** Well-maintained, no visible wear
+- **Condition:** Well-maintained
 - **Luxury Level:** Upscale
 - **Cleanliness:** Very clean
-- **Notable Features:** Large bed, kitchen, air conditioning, TV, neutral earth-toned palette
-- **Drawbacks:** Street-facing noise with open window, thin walls — room neighbours audible
+- **Notable Features:** Large bed, kitchen, air conditioning, TV
+- **Drawbacks:** Street-side noise with open window, room neighbours audible through the walls
